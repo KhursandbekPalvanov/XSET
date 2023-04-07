@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>UC_01_BuyTicket</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="UC_01_BuyTicket.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="UC_01_BuyTicket.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="Cities.dat" Filter="2" />
+    <FileEntry Name="Users.dat" Filter="2" />
+    <FileEntry Name="seats.dat" Filter="2" />
+    <FileEntry Name="combined_UC_01_BuyTicket.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="13757770441.idx" Filter="1" />
+    <FileEntry Name="16636169441.idx" Filter="1" />
+    <FileEntry Name="243940297441.idx" Filter="1" />
+    <FileEntry Name="24394029744_0mX.27.idx" Filter="1" />
+    <FileEntry Name="24394029744_1Zh.91.idx" Filter="1" />
+    <FileEntry Name="24394029744_2sY.727.idx" Filter="1" />
+    <FileEntry Name="24394029744_2Vq.483.idx" Filter="1" />
+    <FileEntry Name="24394029744_5tv.701.idx" Filter="1" />
+    <FileEntry Name="24394029744_5wI.449.idx" Filter="1" />
+    <FileEntry Name="24394029744_6bV.35.idx" Filter="1" />
+    <FileEntry Name="24394029744_6Rs.497.idx" Filter="1" />
+    <FileEntry Name="24394029744_7Pp.85.idx" Filter="1" />
+    <FileEntry Name="24394029744_a4X.205.idx" Filter="1" />
+    <FileEntry Name="24394029744_APL.191.idx" Filter="1" />
+    <FileEntry Name="24394029744_B5g.95.idx" Filter="1" />
+    <FileEntry Name="24394029744_BWI.419.idx" Filter="1" />
+    <FileEntry Name="24394029744_C5R.701.idx" Filter="1" />
+    <FileEntry Name="24394029744_cbk.149.idx" Filter="1" />
+    <FileEntry Name="24394029744_cCe.431.idx" Filter="1" />
+    <FileEntry Name="24394029744_CQm.159.idx" Filter="1" />
+    <FileEntry Name="24394029744_Cvk.425.idx" Filter="1" />
+    <FileEntry Name="24394029744_Dbl.645.idx" Filter="1" />
+    <FileEntry Name="24394029744_dCS.789.idx" Filter="1" />
+    <FileEntry Name="24394029744_dha.373.idx" Filter="1" />
+    <FileEntry Name="24394029744_fii.51.idx" Filter="1" />
+    <FileEntry Name="24394029744_Fnb.537.idx" Filter="1" />
+    <FileEntry Name="24394029744_GOW.517.idx" Filter="1" />
+    <FileEntry Name="24394029744_HEI.511.idx" Filter="1" />
+    <FileEntry Name="24394029744_HYG.309.idx" Filter="1" />
+    <FileEntry Name="24394029744_IRo.901.idx" Filter="1" />
+    <FileEntry Name="24394029744_izc.787.idx" Filter="1" />
+    <FileEntry Name="24394029744_J9I.495.idx" Filter="1" />
+    <FileEntry Name="24394029744_ja3.659.idx" Filter="1" />
+    <FileEntry Name="24394029744_JDr.343.idx" Filter="1" />
+    <FileEntry Name="24394029744_kkr.547.idx" Filter="1" />
+    <FileEntry Name="24394029744_kQ7.449.idx" Filter="1" />
+    <FileEntry Name="24394029744_Kw1.119.idx" Filter="1" />
+    <FileEntry Name="24394029744_KWt.133.idx" Filter="1" />
+    <FileEntry Name="24394029744_L6d.793.idx" Filter="1" />
+    <FileEntry Name="24394029744_LgE.279.idx" Filter="1" />
+    <FileEntry Name="24394029744_mha.563.idx" Filter="1" />
+    <FileEntry Name="24394029744_Mj3.397.idx" Filter="1" />
+    <FileEntry Name="24394029744_oJ5.101.idx" Filter="1" />
+    <FileEntry Name="24394029744_po4.483.idx" Filter="1" />
+    <FileEntry Name="24394029744_PSb.295.idx" Filter="1" />
+    <FileEntry Name="24394029744_PWU.765.idx" Filter="1" />
+    <FileEntry Name="24394029744_Q1m.67.idx" Filter="1" />
+    <FileEntry Name="24394029744_QYv.661.idx" Filter="1" />
+    <FileEntry Name="24394029744_slq.555.idx" Filter="1" />
+    <FileEntry Name="24394029744_Sn7.669.idx" Filter="1" />
+    <FileEntry Name="24394029744_tbn.601.idx" Filter="1" />
+    <FileEntry Name="24394029744_tI7.743.idx" Filter="1" />
+    <FileEntry Name="24394029744_TId.813.idx" Filter="1" />
+    <FileEntry Name="24394029744_UAu.57.idx" Filter="1" />
+    <FileEntry Name="24394029744_Umx.3.idx" Filter="1" />
+    <FileEntry Name="24394029744_vc8.555.idx" Filter="1" />
+    <FileEntry Name="24394029744_vpZ.553.idx" Filter="1" />
+    <FileEntry Name="24394029744_wDm.701.idx" Filter="1" />
+    <FileEntry Name="24394029744_wpT.767.idx" Filter="1" />
+    <FileEntry Name="24394029744_Xc9.797.idx" Filter="1" />
+    <FileEntry Name="24394029744_Y3u.485.idx" Filter="1" />
+    <FileEntry Name="24394029744_zCv.795.idx" Filter="1" />
+    <FileEntry Name="24394029744_Zs8.197.idx" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="custom_body_variables.txt" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="lrw_custom_body.h" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="UC_01_BuyTicket.c.pickle" Filter="1" />
+    <FileEntry Name="UC_01_BuyTicket.ci" Filter="1" />
+    <FileEntry Name="UC_01_BuyTicket.prm.bak" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

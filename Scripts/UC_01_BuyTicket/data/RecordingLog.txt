@@ -1,0 +1,435 @@
+[API Trapper      (50cc:195c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (40f8:3a8c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (5118:3310)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (5118:5aa0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (5118:5aa0)] Load Network Traffic Analyzers:
+[Network Analyzer (5118:5aa0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (5118:5aa0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (5118:5aa0)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (5118:5aa0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (5118:5aa0)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (5118:5aa0)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (5118:5aa0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (5118: de4)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Net An. Debug    (5118: de4)] IP address belongs to the VirtualBox, taking the another interface with ip=192.168.0.190
+[API Trapper      (5bd0:6b50)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 216.58.209.195:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 108.177.14.188:5228   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (5118:36ec)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 216.58.209.195:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:3214)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 216.58.209.205:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 209.85.233.95:443   (Service=)  (Sid=  5)  PROXIED!
+[Net An. Error    (5118:3214)] SSLAccept(ssl_id = 1588577688656 = 00000171DE9BDC50) Failed, ctx = 00000171DE976B40, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (5118:36ec)] SSLAccept(ssl_id = 1588577511040 = 00000171DE992680) Failed, ctx = 00000171DE976B40, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (5118:3214)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (5118:36ec)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (5118:2a50)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (5118:2a50)] SSLAccept(ssl_id = 1588577949040 = 00000171DE9FD570) Failed, ctx = 00000171DE976B40, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (5118:2a50)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (5118:60fc)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5118:48f4)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5118: de4)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (5118: de4)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (5118: de4)]   (Sid:  3) Connection Terminated (by Client)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Net An. Error    (5118:60fc)] SSLAccept(ssl_id = 1588577843504 = 00000171DE9E3930) Failed, ctx = 00000171DE976B40, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (5118:60fc)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (5118:48f4)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Web Request      (5118: de4)] "GET /WebTours/"   
+[Network Analyzer (5118: de4)]   (Sid:  6) Client -> Server @ : 666 bytes (Service=HTTP)
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 64.233.163.95:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (5118: de4)]   (Sid:  6) Server -> Client : 664 bytes  (Service=HTTP)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:2498)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 216.58.209.206:443   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (5118: de4)] "GET /WebTours/header.html"   
+[Network Analyzer (5118: de4)]   (Sid:  6) Client -> Server @ : 703 bytes (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid:  6) Server -> Client : 1007 bytes  (Service=HTTP)
+[Network Analyzer (5118:40d0)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5118: de4)]   (Sid:  4) Connection Terminated (by Client)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5118: de4)]   (Sid:  6) Connection Terminated (by Server)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 64.233.163.95:443   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (5118: de4)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (5118: de4)]   (Sid:  9) Client -> Server @ : 714 bytes (Service=HTTP)
+[Network Analyzer (5118:2498)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Net An. Error    (5118:40d0)] SSLAccept(ssl_id = 1588577757008 = 00000171DE9CE750) Failed, ctx = 00000171DE976B40, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (5118:40d0)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (5118:68e8)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5118: de4)]   (Sid:  9) Server -> Client : 1021 bytes  (Service=HTTP)
+[Web Request      (5118: de4)] "POST /v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (5118: de4)]   (Sid:  7) Client -> Server @ : 1075 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid:  9) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid:  7) Server -> Client : 734 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid:  7) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid:  8) Connection Terminated (by Client)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5118: de4)]   (Sid:  9) Connection Terminated (by Server)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5118:68e8)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 11)  PROXIED!
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 108.177.14.188:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (5118:4418)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (5118: de4)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer (5118: de4)]   (Sid: 11) Client -> Server @ : 619 bytes (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 11) Server -> Client : 899 bytes  (Service=HTTP)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5118: de4)]   (Sid: 11) Connection Terminated (by Server)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 15)  PROXIED!
+[Web Request      (5118: de4)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer (5118: de4)]   (Sid: 12) Client -> Server @ : 620 bytes (Service=HTTP)
+[Web Request      (5118: de4)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (5118: de4)]   (Sid: 14) Client -> Server @ : 755 bytes (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 12) Server -> Client : 4487 bytes  (Service=HTTP)
+[Web Request      (5118: de4)] "GET /WebTours/home.html"   
+[Network Analyzer (5118: de4)]   (Sid: 15) Client -> Server @ : 751 bytes (Service=HTTP)
+[Network Analyzer (5118:4418)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5118: de4)]   (Sid: 15) Server -> Client : 1660 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 13) Client -> Server @ : 191 bytes (SSL)
+[Network Analyzer (5118: de4)]   (Sid: 14) Server -> Client : 1753 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 14) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 13) Server -> Client : 1 bytes (SSL)
+[Web Request      (5118: de4)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (5118: de4)]   (Sid: 14) Client -> Server @ : 651 bytes (Service=HTTP)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118: de4)]   (Sid: 13) Server -> Client : 67 bytes (SSL)
+[Network Analyzer (5118: de4)]   (Sid: 13) Server -> Client : 12 bytes (SSL)
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (5118: de4)]   (Sid: 14) Server -> Client : 976 bytes  (Service=HTTP)
+[Web Request      (5118: de4)] "GET /favicon.ico"   
+[Network Analyzer (5118: de4)]   (Sid: 14) Client -> Server @ : 620 bytes (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 14) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (5118:33ec)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5118:33ec)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Web Request      (5118: de4)] "GET /v1/pages/ChVDaHJvbWUvMTExLjAuNTU2My4xNDcSFwlN-SI5wUW4MBIFDeeNQA4SBQ3OQUx6?alt=proto"   
+[Network Analyzer (5118: de4)]   (Sid: 16) Client -> Server @ : 531 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (5118: de4)]   (Sid: 16) Server -> Client : 505 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 12) Connection Terminated (by Server)
+[Network Analyzer (5118: de4)]   (Sid: 15) Connection Terminated (by Server)
+[Network Analyzer (5118: de4)]   (Sid: 14) Connection Terminated (by Server)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 216.58.209.195:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (5118:36fc)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (5118:36fc)] SSLAccept(ssl_id = 1588578404976 = 00000171DEA6CA70) Failed, ctx = 00000171DE976B40, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (5118:36fc)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (5118: de4)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 216.58.209.195:80   (Service=)  (Sid= 19)  PROXIED!
+[Web Request      (5118: de4)] "POST /service/update2/json?cup2key=12:OAFiSdrmeE6sqR_qGH0wr4UhCI4UWjmhE6SlHSTCL2k&cup2hreq=635db80fcfa9b6c5c6e0dfdc7c03d5a5e79c4b7ea7f8f14f77a488232179d5af"
+[Network Analyzer (5118: de4)]   (Sid: 19) Client -> Server @ : 9998 bytes (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 19) Server -> Client : 1085 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 19) Server -> Client : 1025 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 17) Connection Terminated (by Client)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[API Trapper      (50fc:3640)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Web Request      (5118: de4)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (5118: de4)]   (Sid: 20) Client -> Server @ : 1010 bytes (Service=HTTP)
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118: de4)]   (Sid: 20) Server -> Client : 847 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 20) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 173.194.220.95:443   (Service=)  (Sid= 22)  PROXIED!
+[Web Request      (5118: de4)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (5118: de4)]   (Sid: 20) Client -> Server @ : 860 bytes (Service=HTTP)
+[Web Request      (5118: de4)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (5118: de4)]   (Sid: 21) Client -> Server @ : 855 bytes (Service=HTTP)
+[Network Analyzer (5118: d08)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5118: de4)]   (Sid: 21) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 21) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (5118: d08)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5118: de4)]   (Sid: 20) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 20) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (5118: de4)] "GET /v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTExLjAuNTU2My4xNDcaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARCMpRAaAhgHaIXVuyIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQzYgMGgIYB2FRWZoiBCABIAIoARopCAcQARobCg0IBxAGGAEiAzAwMTABEP3XDBoCGAf6knfVIgQgASACKAEaJwgBEAEaGQoNCAEQBhgBIgMwMDEwAxAUGgIYB2L_aREiBCABIAIoAxooCAEQCBoaCg0IARAIGAEiAzAwMTAEEKUyGgIYB7R2s_MiBCABIAIoBBooCA8QARoaCg0IDxAGGAEiAzAwMTABEMpzGgIYB1dAr5kiBCABIAIoARonCAoQCBoZCg0IChAIGAEiAzAwMTABEAcaAhgHBZ1-HiIEIAEgAigBGicICRABGhkKDQgJEAYYASIDMDAxMAEQIBoCGAdpkNi6IgQgASACKAEaKAgIEAEaGgoNCAgQBhgBIgMwMDEwARCvEhoCGAextFADIgQgASACKAEaKQgNEAEaGwoNCA0QBhgBIgMwMDEwARDY4wEaAhgHfehQwCIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQ_P8LGgIYB0ialJgiBCABIAIoARopCA4QARobCg0IDhAGGAEiAzAwMTABEJP6BhoCGAc1bTaNIgQgASACKAEaKAgQEAEaGgoNCBAQBhgBIgMwMDEwARCAGBoCGAfatnePIgQgASACKAEiAggB&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (5118: de4)]   (Sid: 22) Client -> Server @ : 1221 bytes (SSL)(Service=HTTP)
+[Web Request      (5118: de4)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (5118: de4)]   (Sid: 20) Client -> Server @ : 769 bytes (Service=HTTP)
+[Web Request      (5118: de4)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (5118: de4)]   (Sid: 21) Client -> Server @ : 771 bytes (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 22) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 21) Server -> Client : 1030 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 22) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 22) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 22) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 22) Server -> Client : 1370 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 20) Server -> Client : 1023 bytes  (Service=HTTP)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5118: de4)]   (Sid: 21) Connection Terminated (by Server)
+[Network Analyzer (5118: de4)]   (Sid: 20) Connection Terminated (by Server)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Web Request      (5118: de4)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (5118: de4)]   (Sid: 23) Client -> Server @ : 769 bytes (Service=HTTP)
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 24)  PROXIED!
+[Web Request      (5118: de4)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (5118: de4)]   (Sid: 24) Client -> Server @ : 769 bytes (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 23) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 24) Server -> Client : 1049 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 23) Connection Terminated (by Server)
+[Network Analyzer (5118: de4)]   (Sid: 24) Connection Terminated (by Server)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Web Request      (5118: de4)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (5118: de4)]   (Sid: 25) Client -> Server @ : 894 bytes (Service=HTTP)
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (5118: de4)]   (Sid: 25) Server -> Client : 839 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 25) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (5118: de4)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer (5118: de4)]   (Sid: 25) Client -> Server @ : 877 bytes (Service=HTTP)
+[Web Request      (5118: de4)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer (5118: de4)]   (Sid: 26) Client -> Server @ : 878 bytes (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 25) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 25) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (5118: de4)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer (5118: de4)]   (Sid: 25) Client -> Server @ : 775 bytes (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 26) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 25) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 26) Server -> Client : 286 bytes  (Service=HTTP)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5118: de4)]   (Sid: 25) Connection Terminated (by Server)
+[Network Analyzer (5118: de4)]   (Sid: 26) Connection Terminated (by Server)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 27)  PROXIED!
+[Web Request      (5118: de4)] "GET /v1/pages/ChVDaHJvbWUvMTExLjAuNTU2My4xNDcSLAlBQlOibcsVChIFDVRiKa0SBQ17ncSlEgUNHzs5hRIFDdqFmWESBQ2pjkq9?alt=proto"   
+[Network Analyzer (5118: de4)]   (Sid: 16) Client -> Server @ : 559 bytes (SSL)(Service=HTTP)
+[Web Request      (5118: de4)] "GET /WebTours/images/home.gif"   
+[Network Analyzer (5118: de4)]   (Sid: 27) Client -> Server @ : 769 bytes (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 27) Server -> Client : 986 bytes  (Service=HTTP)
+[Web Request      (5118: de4)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer (5118: de4)]   (Sid: 27) Client -> Server @ : 777 bytes (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 27) Server -> Client : 1055 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 16) Server -> Client : 514 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (5118: de4)]   (Sid: 27) Connection Terminated (by Server)
+[Network Analyzer (5118: de4)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer (5118: de4)]   (Sid: 10) Connection Terminated (by Server)
+[Network Analyzer (5118: de4)]   (Sid:  7) Connection Terminated (by Server)
+[Web Request      (5118: de4)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (5118: de4)]   (Sid: 28) Client -> Server @ : 1257 bytes (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 28) Server -> Client : 2705 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 28) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 28) Connection Terminated (by Server)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5118: de4)]   (Sid: 19) Connection Terminated (by Server)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Web Request      (5118: de4)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (5118: de4)]   (Sid: 29) Client -> Server @ : 1153 bytes (Service=HTTP)
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (5118: de4)]   (Sid: 29) Server -> Client : 2965 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 29) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 216.58.209.163:443   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer (5118: de4)]   (Sid: 29) Connection Terminated (by Server)
+[Network Analyzer (5118:6618)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5118:6618)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (5118: de4)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=111"   
+[Network Analyzer (5118: de4)]   (Sid: 31) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 31) Server -> Client : 206 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 22) Connection Terminated (by Server)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5118: de4)]   (Sid: 30) Connection Terminated (by Client)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Web Request      (5118: de4)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (5118: de4)]   (Sid: 32) Client -> Server @ : 1340 bytes (Service=HTTP)
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (5118: de4)]   (Sid: 32) Server -> Client : 2842 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 32) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (5118: de4)] "GET /WebTours/images/bookanother.gif"   
+[Network Analyzer (5118: de4)]   (Sid: 32) Client -> Server @ : 740 bytes (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 32) Server -> Client : 1103 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 32) Connection Terminated (by Server)
+[Network Analyzer (5118: de4)]   (Sid: 16) Connection Terminated (by Server)
+[Web Request      (5118: de4)] "GET /cgi-bin/welcome.pl?page=itinerary"   
+[Network Analyzer (5118: de4)]   (Sid: 33) Client -> Server @ : 876 bytes (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 33) Server -> Client : 814 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 33) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (5118: de4)] "GET /cgi-bin/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer (5118: de4)]   (Sid: 33) Client -> Server @ : 878 bytes (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 33) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 33) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5118: de4)]   (Sid: 33) Connection Terminated (by Server)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Web Request      (5118: de4)] "GET /cgi-bin/itinerary.pl"   
+[Network Analyzer (5118: de4)]   (Sid: 34) Client -> Server @ : 861 bytes (Service=HTTP)
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 35)  PROXIED!
+[Web Request      (5118: de4)] "GET /WebTours/images/in_itinerary.gif"   
+[Network Analyzer (5118: de4)]   (Sid: 35) Client -> Server @ : 755 bytes (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 35) Server -> Client : 1031 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 34) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 34) Server -> Client : 988 bytes  (Service=HTTP)
+[Web Request      (5118: de4)] "GET /WebTours/images/cancelreservation.gif"   
+[Network Analyzer (5118: de4)]   (Sid: 34) Client -> Server @ : 743 bytes (Service=HTTP)
+[Web Request      (5118: de4)] "GET /WebTours/images/cancelallreservations.gif"   
+[Network Analyzer (5118: de4)]   (Sid: 35) Client -> Server @ : 747 bytes (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 35) Server -> Client : 1039 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 34) Server -> Client : 1128 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 35) Connection Terminated (by Server)
+[Network Analyzer (5118: de4)]   (Sid: 34) Connection Terminated (by Server)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Web Request      (5118: de4)] "GET /cgi-bin/welcome.pl?page=menus"   
+[Network Analyzer (5118: de4)]   (Sid: 36) Client -> Server @ : 874 bytes (Service=HTTP)
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 37)  PROXIED!
+[Network Analyzer (5118: de4)]   (Sid: 36) Server -> Client : 819 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 36) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (5118: de4)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (5118: de4)]   (Sid: 36) Client -> Server @ : 849 bytes (Service=HTTP)
+[Web Request      (5118: de4)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (5118: de4)]   (Sid: 37) Client -> Server @ : 844 bytes (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 31) Connection Terminated (by Server)
+[Network Analyzer (5118: de4)]   (Sid: 37) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 37) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 36) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 36) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 37) Connection Terminated (by Server)
+[Network Analyzer (5118: de4)]   (Sid: 36) Connection Terminated (by Server)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5118:5aa0)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 38)  PROXIED!
+[Network Analyzer (5118:5aa0)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Web Request      (5118: de4)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (5118: de4)]   (Sid: 38) Client -> Server @ : 868 bytes (Service=HTTP)
+[Network Analyzer (5118:5aa0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 39)  PROXIED!
+[Network Analyzer (5118: de4)]   (Sid: 38) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 38) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (5118: de4)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (5118: de4)]   (Sid: 38) Client -> Server @ : 752 bytes (Service=HTTP)
+[Web Request      (5118: de4)] "GET /WebTours/home.html"   
+[Network Analyzer (5118: de4)]   (Sid: 39) Client -> Server @ : 848 bytes (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 39) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 38) Server -> Client : 1750 bytes  (Service=HTTP)
+[Network Analyzer (5118: de4)]   (Sid: 38) Server -> Client : 5 bytes  (Service=HTTP)
