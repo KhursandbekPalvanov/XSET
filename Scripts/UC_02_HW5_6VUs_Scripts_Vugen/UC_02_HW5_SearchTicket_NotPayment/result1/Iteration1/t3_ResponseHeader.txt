@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 28 Apr 2023 07:10:24 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Patrick&address2&Ocean&username&patrick&hash&11&lastName&Star%0A&address1&Under%20a%20rock&creditCard&&expDate&%0A; path=/
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

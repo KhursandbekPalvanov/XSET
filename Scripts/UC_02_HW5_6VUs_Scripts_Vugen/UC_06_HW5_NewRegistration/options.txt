@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\LR_Projects\Scripts\UC_02_HW5_6VUs_Scripts_Vugen\UC_06_HW5_NewRegistration
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\lr_projects\scripts\uc_02_hw5_6vus_scripts_vugen\uc_06_hw5_newregistration\\logfile.log
+d:\lr_projects\scripts\uc_02_hw5_6vus_scripts_vugen\uc_06_hw5_newregistration\\combined_UC_06_HW5_NewRegistration.c
+d:\lr_projects\scripts\uc_02_hw5_6vus_scripts_vugen\uc_06_hw5_newregistration\\pre_cci.c

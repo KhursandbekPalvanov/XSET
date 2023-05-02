@@ -1,0 +1,5 @@
+d:\lr_projects\scripts\uc_02_hw5_6vus_scripts_vugen\uc_04_hw5_view_itenarylist\\pre_cci.c: ..\\Parameters\\function.h:60: warning: missing return value
+d:\lr_projects\scripts\uc_02_hw5_6vus_scripts_vugen\uc_04_hw5_view_itenarylist\\pre_cci.c: ..\\Parameters\\function.h:97: warning: missing return value
+d:\lr_projects\scripts\uc_02_hw5_6vus_scripts_vugen\uc_04_hw5_view_itenarylist\\pre_cci.c: ..\\Parameters\\function.h:118: warning: missing return value
+d:\lr_projects\scripts\uc_02_hw5_6vus_scripts_vugen\uc_04_hw5_view_itenarylist\\pre_cci.c: ..\\Parameters\\function.h:141: warning: missing return value
+d:\lr_projects\scripts\uc_02_hw5_6vus_scripts_vugen\uc_04_hw5_view_itenarylist\\pre_cci.c: C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/string.h:30: warning: declaration of `strcpy' does not match previous declaration at ..\\Parameters\\function.h:124

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 28 Apr 2023 07:13:35 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Squidward&address2&Ocean&username&squidward&hash&36&lastName&Tentacles%0A&address1&Moai%20house&creditCard&&expDate&%0A; path=/
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

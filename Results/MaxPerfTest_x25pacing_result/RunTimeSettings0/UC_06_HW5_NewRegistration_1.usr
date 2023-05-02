@@ -1,0 +1,77 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=UC_06_HW5_NewRegistration.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2021
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2021.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2021.0.0.0
+DisableRegenerate=0
+Encoding=UTF8
+Description=
+ScriptLocale=ru-RU
+[Actions]
+vuser_init=vuser_init.c
+Action_NewRegistration=Action_NewRegistration.c
+generate_username=generate_username.c
+Action_Add_10_MyUsers=Action_Add_10_MyUsers.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Action_NewRegistration=1
+generate_username=1
+Action_Add_10_MyUsers=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action_NewRegistration=1
+generate_username=0
+Action_Add_10_MyUsers=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action_NewRegistration=1
+generate_username=1
+Action_Add_10_MyUsers=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action_NewRegistration=cci
+generate_username=cci
+Action_Add_10_MyUsers=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="UC_06_HW5_NewRegistration__*delimiter*__open_webtours_site__*delimiter*__go_to_sign_up_now__*delimiter*__entering_registration_data__*delimiter*__click_continue_after_reg__*delimiter*__UC_06_HW5_NewRegistration__*delimiter*__open_webtours_site__*delimiter*__go_to_sign_up_now__*delimiter*__entering_registration_data__*delimiter*__click_continue_after_reg__*delimiter*__logout"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+UC_06_HW5_NewRegistration=
+open_webtours_site=
+go_to_sign_up_now=
+entering_registration_data=
+click_continue_after_reg=
+logout=

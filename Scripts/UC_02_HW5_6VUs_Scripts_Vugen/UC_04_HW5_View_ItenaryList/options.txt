@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\LR_Projects\Scripts\UC_02_HW5_6VUs_Scripts_Vugen\UC_04_HW5_View_ItenaryList
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\lr_projects\scripts\uc_02_hw5_6vus_scripts_vugen\uc_04_hw5_view_itenarylist\\logfile.log
+d:\lr_projects\scripts\uc_02_hw5_6vus_scripts_vugen\uc_04_hw5_view_itenarylist\\combined_UC_04_HW5_View_ItenaryList.c
+d:\lr_projects\scripts\uc_02_hw5_6vus_scripts_vugen\uc_04_hw5_view_itenarylist\\pre_cci.c

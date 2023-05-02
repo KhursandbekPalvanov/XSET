@@ -1,0 +1,1355 @@
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/in_flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(58): Notify: Transaction "choise_cities_passengers_seats" started.
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action_SearchTicket_NotPayment.c(77): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(77): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(88): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(88): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(125): depart-from - London
+..\\Parameters\\function.h(129): arrive-to - Los Angeles
+..\\Parameters\\function.h(132): result -1
+..\\Parameters\\function.h(134): MATCH CHECK CITIES
+Action_SearchTicket_NotPayment.c(104): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(108): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(108): Registered web_reg_find successful for "Text=Flight departing from <b>London</b> to <b>Los Angeles</b> on <B>04/27/2023</B>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") was successful, 2446 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(132): Notify: Transaction "choise_cities_passengers_seats" ended with a "Pass" status (Duration: 0,0442 Wasted Time: 0,0006).
+Action_SearchTicket_NotPayment.c(135): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(22): Notify: Transaction "login" started.
+..\\Parameters\\function.h(65): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(65): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(73): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(76): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(76): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=User has returned to the search page.  Since user has already logged on" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=<font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): web_url("Search Flights Button") was successful, 8516 body bytes, 1615 header bytes, 37 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(51): Notify: Transaction "go_to_flights" ended with a "Pass" status (Duration: 2,1654 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(54): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(139): Notify: Transaction "choice_time_and_cost" started.
+Action_SearchTicket_NotPayment.c(161): CostVal = 1546
+Action_SearchTicket_NotPayment.c(164): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(164): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(169): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(169): Registered web_reg_find successful for "Text=1546" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") was successful, 2819 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(188): Notify: Transaction "choice_time_and_cost" ended with a "Pass" status (Duration: 0,0426 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(195): Notify: Transaction "logout" started.
+..\\Parameters\\function.h(104): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(108): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+..\\Parameters\\function.h(108): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Parameters\\function.h(108): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(108): web_url("SignOff Button") was successful, 2172 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(197): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,1750 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(200): Notify: Transaction "UC_02_HW5_SearchTicket_NotPayment" ended with a "Pass" status (Duration: 8,8792 Think Time: 8,0356 Wasted Time: 0,0009).
+Ending action Action_SearchTicket_NotPayment.
+Ending iteration 96.
+Waiting 20,1200 seconds for iteration pacing.
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=Welcome, <b>patrick</b>, to the Web Tours reservation pages" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") was successful, 5782 body bytes, 2060 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(24): Notify: Transaction "login" ended with a "Pass" status (Duration: 2,1731 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(27): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(58): Notify: Transaction "choise_cities_passengers_seats" started.
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action_SearchTicket_NotPayment.c(77): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(77): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(88): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(88): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(125): depart-from - Sydney
+..\\Parameters\\function.h(129): arrive-to - Zurich
+..\\Parameters\\function.h(132): result -1
+..\\Parameters\\function.h(134): MATCH CHECK CITIES
+Action_SearchTicket_NotPayment.c(104): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+Starting iteration 160.
+Starting action Action_SearchTicket_NotPayment.
+Action_SearchTicket_NotPayment.c(8): Notify: Transaction "UC_02_HW5_SearchTicket_NotPayment" started.
+Action_SearchTicket_NotPayment.c(10): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(10): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_SearchTicket_NotPayment.c(13): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(108): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(108): Registered web_reg_find successful for "Text=Flight departing from <b>Sydney</b> to <b>Zurich</b> on <B>04/27/2023</B>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") was successful, 2449 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(132): Notify: Transaction "choise_cities_passengers_seats" ended with a "Pass" status (Duration: 0,0441 Wasted Time: 0,0003).
+Action_SearchTicket_NotPayment.c(135): lr_think_time: 2,00 seconds.
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(50): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(50): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(50): web_url("welcome.pl") was successful, 4216 body bytes, 1177 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(15): Notify: Transaction "open_webtours_site" ended with a "Pass" status (Duration: 0,1790 Wasted Time: 0,0003).
+Action_SearchTicket_NotPayment.c(18): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(31): Notify: Transaction "go_to_flights" started.
+Action_SearchTicket_NotPayment.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(37): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(41): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/in_flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=User has returned to the search page.  Since user has already logged on" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=<font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): web_url("Search Flights Button") was successful, 8516 body bytes, 1616 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(51): Notify: Transaction "go_to_flights" ended with a "Pass" status (Duration: 0,1788 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(54): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(139): Notify: Transaction "choice_time_and_cost" started.
+Action_SearchTicket_NotPayment.c(161): CostVal = 2546
+Action_SearchTicket_NotPayment.c(164): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(164): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(169): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(169): Registered web_reg_find successful for "Text=2546" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") was successful, 2834 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(188): Notify: Transaction "choice_time_and_cost" ended with a "Pass" status (Duration: 0,0444 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(195): Notify: Transaction "logout" started.
+..\\Parameters\\function.h(104): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(108): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action_SearchTicket_NotPayment.c(22): Notify: Transaction "login" started.
+..\\Parameters\\function.h(65): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(65): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(73): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(76): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(76): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Parameters\\function.h(108): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(108): web_url("SignOff Button") was successful, 2176 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(197): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,1648 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(200): Notify: Transaction "UC_02_HW5_SearchTicket_NotPayment" ended with a "Pass" status (Duration: 10,7828 Think Time: 8,0427 Wasted Time: 0,0006).
+Ending action Action_SearchTicket_NotPayment.
+Ending iteration 49.
+Waiting 18,2170 seconds for iteration pacing.
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=Welcome, <b>squidward</b>, to the Web Tours reservation pages" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") was successful, 5784 body bytes, 2061 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(24): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,1774 Wasted Time: 0,0001).
+Action_SearchTicket_NotPayment.c(27): lr_think_time: 2,00 seconds.
+Starting iteration 157.
+Starting action Action_SearchTicket_NotPayment.
+Action_SearchTicket_NotPayment.c(8): Notify: Transaction "UC_02_HW5_SearchTicket_NotPayment" started.
+Action_SearchTicket_NotPayment.c(10): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(10): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_SearchTicket_NotPayment.c(13): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(50): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(50): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(50): web_url("welcome.pl") was successful, 4214 body bytes, 1177 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(15): Notify: Transaction "open_webtours_site" ended with a "Pass" status (Duration: 0,1855 Wasted Time: 0,0003).
+Action_SearchTicket_NotPayment.c(18): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(58): Notify: Transaction "choise_cities_passengers_seats" started.
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action_SearchTicket_NotPayment.c(77): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(77): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(88): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(88): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(125): depart-from - London
+..\\Parameters\\function.h(129): arrive-to - Portland
+..\\Parameters\\function.h(132): result -1
+..\\Parameters\\function.h(134): MATCH CHECK CITIES
+Action_SearchTicket_NotPayment.c(104): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(108): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(108): Registered web_reg_find successful for "Text=Flight departing from <b>London</b> to <b>Portland</b> on <B>04/27/2023</B>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") was successful, 2443 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(132): Notify: Transaction "choise_cities_passengers_seats" ended with a "Pass" status (Duration: 0,0424 Wasted Time: 0,0004).
+Action_SearchTicket_NotPayment.c(135): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(31): Notify: Transaction "go_to_flights" started.
+Action_SearchTicket_NotPayment.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(37): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(41): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/in_flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=User has returned to the search page.  Since user has already logged on" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=<font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): web_url("Search Flights Button") was successful, 8516 body bytes, 1616 header bytes, 37 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(51): Notify: Transaction "go_to_flights" ended with a "Pass" status (Duration: 0,1715 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(54): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(22): Notify: Transaction "login" started.
+..\\Parameters\\function.h(65): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(65): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(73): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(76): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(76): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Starting iteration 155.
+Starting action Action_SearchTicket_NotPayment.
+Action_SearchTicket_NotPayment.c(8): Notify: Transaction "UC_02_HW5_SearchTicket_NotPayment" started.
+Action_SearchTicket_NotPayment.c(10): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(10): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_SearchTicket_NotPayment.c(13): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=Welcome, <b>mrkrabs</b>, to the Web Tours reservation pages" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") was successful, 5782 body bytes, 2061 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(24): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,1789 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(27): lr_think_time: 2,00 seconds.
+..\\Parameters\\function.h(50): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(139): Notify: Transaction "choice_time_and_cost" started.
+Action_SearchTicket_NotPayment.c(161): CostVal = 2952
+Action_SearchTicket_NotPayment.c(164): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(164): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(50): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(50): web_url("welcome.pl") was successful, 4215 body bytes, 1177 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(15): Notify: Transaction "open_webtours_site" ended with a "Pass" status (Duration: 0,2456 Wasted Time: 0,0004).
+Action_SearchTicket_NotPayment.c(18): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(169): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(169): Registered web_reg_find successful for "Text=2952" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") was successful, 2877 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(188): Notify: Transaction "choice_time_and_cost" ended with a "Pass" status (Duration: 0,0432 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(195): Notify: Transaction "logout" started.
+..\\Parameters\\function.h(104): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(108): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+..\\Parameters\\function.h(108): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Parameters\\function.h(108): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(108): web_url("SignOff Button") was successful, 2175 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(197): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,1708 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(200): Notify: Transaction "UC_02_HW5_SearchTicket_NotPayment" ended with a "Pass" status (Duration: 10,8284 Think Time: 8,0362 Wasted Time: 0,0008).
+Ending action Action_SearchTicket_NotPayment.
+Ending iteration 46.
+Waiting 18,1710 seconds for iteration pacing.
+Action_SearchTicket_NotPayment.c(58): Notify: Transaction "choise_cities_passengers_seats" started.
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action_SearchTicket_NotPayment.c(77): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(77): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(88): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(88): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(125): depart-from - Paris
+..\\Parameters\\function.h(129): arrive-to - Seattle
+..\\Parameters\\function.h(132): result -1
+..\\Parameters\\function.h(134): MATCH CHECK CITIES
+Action_SearchTicket_NotPayment.c(104): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(108): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(108): Registered web_reg_find successful for "Text=Flight departing from <b>Paris</b> to <b>Seattle</b> on <B>04/27/2023</B>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") was successful, 2441 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(132): Notify: Transaction "choise_cities_passengers_seats" ended with a "Pass" status (Duration: 0,0844 Wasted Time: 0,0003).
+Action_SearchTicket_NotPayment.c(135): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(31): Notify: Transaction "go_to_flights" started.
+Action_SearchTicket_NotPayment.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(37): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(41): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(22): Notify: Transaction "login" started.
+..\\Parameters\\function.h(65): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(65): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(73): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(76): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(76): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/in_flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=User has returned to the search page.  Since user has already logged on" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=<font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): web_url("Search Flights Button") was successful, 8516 body bytes, 1616 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(51): Notify: Transaction "go_to_flights" ended with a "Pass" status (Duration: 0,1712 Wasted Time: 0,0001).
+Action_SearchTicket_NotPayment.c(54): lr_think_time: 2,00 seconds.
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=Welcome, <b>jojo</b>, to the Web Tours reservation pages" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") was successful, 5779 body bytes, 2029 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(24): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,1841 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(27): lr_think_time: 2,00 seconds.
+Starting iteration 152.
+Starting action Action_SearchTicket_NotPayment.
+Action_SearchTicket_NotPayment.c(8): Notify: Transaction "UC_02_HW5_SearchTicket_NotPayment" started.
+Action_SearchTicket_NotPayment.c(10): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(10): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_SearchTicket_NotPayment.c(13): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(50): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(50): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(50): web_url("welcome.pl") was successful, 4216 body bytes, 1177 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(15): Notify: Transaction "open_webtours_site" ended with a "Pass" status (Duration: 0,1753 Wasted Time: 0,0003).
+Action_SearchTicket_NotPayment.c(18): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(139): Notify: Transaction "choice_time_and_cost" started.
+Action_SearchTicket_NotPayment.c(161): CostVal = 2120
+Action_SearchTicket_NotPayment.c(164): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(164): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(169): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(169): Registered web_reg_find successful for "Text=2120" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") was successful, 2821 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(188): Notify: Transaction "choice_time_and_cost" ended with a "Pass" status (Duration: 0,0431 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(195): Notify: Transaction "logout" started.
+..\\Parameters\\function.h(104): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(108): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+..\\Parameters\\function.h(108): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Parameters\\function.h(108): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(108): web_url("SignOff Button") was successful, 2176 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(197): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,1792 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(200): Notify: Transaction "UC_02_HW5_SearchTicket_NotPayment" ended with a "Pass" status (Duration: 8,8659 Think Time: 8,0303 Wasted Time: 0,0007).
+Ending action Action_SearchTicket_NotPayment.
+Ending iteration 160.
+Waiting 20,1340 seconds for iteration pacing.
+Action_SearchTicket_NotPayment.c(58): Notify: Transaction "choise_cities_passengers_seats" started.
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action_SearchTicket_NotPayment.c(77): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(77): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(88): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(88): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(125): depart-from - Frankfurt
+..\\Parameters\\function.h(129): arrive-to - Frankfurt
+..\\Parameters\\function.h(132): result 0
+..\\Parameters\\function.h(134): MATCH CHECK CITIES
+..\\Parameters\\function.h(137): CHECK: city1 == city2
+Action_SearchTicket_NotPayment.c(104): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(108): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(108): Registered web_reg_find successful for "Text=Flight departing from <b>Frankfurt</b> to <b>Paris</b> on <B>04/27/2023</B>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") was successful, 2440 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(132): Notify: Transaction "choise_cities_passengers_seats" ended with a "Pass" status (Duration: 0,0431 Wasted Time: 0,0003).
+Action_SearchTicket_NotPayment.c(135): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(31): Notify: Transaction "go_to_flights" started.
+Action_SearchTicket_NotPayment.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(37): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(41): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/in_flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=User has returned to the search page.  Since user has already logged on" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=<font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): web_url("Search Flights Button") was successful, 8516 body bytes, 1616 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(51): Notify: Transaction "go_to_flights" ended with a "Pass" status (Duration: 0,1961 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(54): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(22): Notify: Transaction "login" started.
+..\\Parameters\\function.h(65): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(65): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(73): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(76): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(76): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Starting iteration 150.
+Starting action Action_SearchTicket_NotPayment.
+Action_SearchTicket_NotPayment.c(8): Notify: Transaction "UC_02_HW5_SearchTicket_NotPayment" started.
+Action_SearchTicket_NotPayment.c(10): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(10): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_SearchTicket_NotPayment.c(13): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=Welcome, <b>spongebob</b>, to the Web Tours reservation pages" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") was successful, 5784 body bytes, 2067 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(24): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,1858 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(27): lr_think_time: 2,00 seconds.
+..\\Parameters\\function.h(50): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(50): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(50): web_url("welcome.pl") was successful, 4212 body bytes, 1177 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(15): Notify: Transaction "open_webtours_site" ended with a "Pass" status (Duration: 0,1261 Wasted Time: 0,0004).
+Action_SearchTicket_NotPayment.c(18): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(139): Notify: Transaction "choice_time_and_cost" started.
+Action_SearchTicket_NotPayment.c(161): CostVal = 241
+Action_SearchTicket_NotPayment.c(164): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(164): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(169): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(169): Registered web_reg_find successful for "Text=241" (count=2)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") was successful, 2744 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(188): Notify: Transaction "choice_time_and_cost" ended with a "Pass" status (Duration: 0,0481 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(195): Notify: Transaction "logout" started.
+..\\Parameters\\function.h(104): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(108): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+..\\Parameters\\function.h(108): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Parameters\\function.h(108): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(108): web_url("SignOff Button") was successful, 2174 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(197): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,1719 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(200): Notify: Transaction "UC_02_HW5_SearchTicket_NotPayment" ended with a "Pass" status (Duration: 8,8333 Think Time: 8,0334 Wasted Time: 0,0007).
+Ending action Action_SearchTicket_NotPayment.
+Ending iteration 157.
+Waiting 20,1660 seconds for iteration pacing.
+Action_SearchTicket_NotPayment.c(58): Notify: Transaction "choise_cities_passengers_seats" started.
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action_SearchTicket_NotPayment.c(77): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(77): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(88): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(88): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(125): depart-from - Paris
+..\\Parameters\\function.h(129): arrive-to - London
+..\\Parameters\\function.h(132): result 1
+..\\Parameters\\function.h(134): MATCH CHECK CITIES
+Action_SearchTicket_NotPayment.c(104): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(108): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(108): Registered web_reg_find successful for "Text=Flight departing from <b>Paris</b> to <b>London</b> on <B>04/27/2023</B>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") was successful, 2438 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(132): Notify: Transaction "choise_cities_passengers_seats" ended with a "Pass" status (Duration: 0,0712 Wasted Time: 0,0003).
+Action_SearchTicket_NotPayment.c(135): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(31): Notify: Transaction "go_to_flights" started.
+Action_SearchTicket_NotPayment.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(37): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(41): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(22): Notify: Transaction "login" started.
+..\\Parameters\\function.h(65): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(65): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(73): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(76): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(76): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/in_flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=User has returned to the search page.  Since user has already logged on" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=<font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): web_url("Search Flights Button") was successful, 8516 body bytes, 1616 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(51): Notify: Transaction "go_to_flights" ended with a "Pass" status (Duration: 0,1813 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(54): lr_think_time: 2,00 seconds.
+Starting iteration 147.
+Starting action Action_SearchTicket_NotPayment.
+Action_SearchTicket_NotPayment.c(8): Notify: Transaction "UC_02_HW5_SearchTicket_NotPayment" started.
+Action_SearchTicket_NotPayment.c(10): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(10): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_SearchTicket_NotPayment.c(13): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(50): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(50): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(50): web_url("welcome.pl") was successful, 4209 body bytes, 1177 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(15): Notify: Transaction "open_webtours_site" ended with a "Pass" status (Duration: 0,1207 Wasted Time: 0,0004).
+Action_SearchTicket_NotPayment.c(18): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(139): Notify: Transaction "choice_time_and_cost" started.
+Action_SearchTicket_NotPayment.c(161): CostVal = 596
+Action_SearchTicket_NotPayment.c(164): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(164): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(169): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(169): Registered web_reg_find successful for "Text=596" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") was successful, 2909 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(188): Notify: Transaction "choice_time_and_cost" ended with a "Pass" status (Duration: 0,0430 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(195): Notify: Transaction "logout" started.
+..\\Parameters\\function.h(104): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(108): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+..\\Parameters\\function.h(108): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Parameters\\function.h(108): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(108): web_url("SignOff Button") was successful, 2176 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(197): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,1758 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(200): Notify: Transaction "UC_02_HW5_SearchTicket_NotPayment" ended with a "Pass" status (Duration: 8,9452 Think Time: 8,0283 Wasted Time: 0,0008).
+Ending action Action_SearchTicket_NotPayment.
+Ending iteration 155.
+Waiting 20,0540 seconds for iteration pacing.
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=Welcome, <b>sheldon</b>, to the Web Tours reservation pages" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") was successful, 5782 body bytes, 2064 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(24): Notify: Transaction "login" ended with a "Pass" status (Duration: 2,1090 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(27): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(58): Notify: Transaction "choise_cities_passengers_seats" started.
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action_SearchTicket_NotPayment.c(77): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(77): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(88): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(88): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(125): depart-from - San Francisco
+..\\Parameters\\function.h(129): arrive-to - Paris
+..\\Parameters\\function.h(132): result 1
+..\\Parameters\\function.h(134): MATCH CHECK CITIES
+Action_SearchTicket_NotPayment.c(104): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(108): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(108): Registered web_reg_find successful for "Text=Flight departing from <b>San Francisco</b> to <b>Paris</b> on <B>04/27/2023</B>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") was successful, 2455 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(132): Notify: Transaction "choise_cities_passengers_seats" ended with a "Pass" status (Duration: 0,0862 Wasted Time: 0,0004).
+Action_SearchTicket_NotPayment.c(135): lr_think_time: 2,00 seconds.
+Starting iteration 100.
+Starting action Action_SearchTicket_NotPayment.
+Action_SearchTicket_NotPayment.c(8): Notify: Transaction "UC_02_HW5_SearchTicket_NotPayment" started.
+Action_SearchTicket_NotPayment.c(10): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(10): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_SearchTicket_NotPayment.c(13): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(50): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(50): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(50): web_url("welcome.pl") was successful, 4214 body bytes, 1177 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(15): Notify: Transaction "open_webtours_site" ended with a "Pass" status (Duration: 0,1344 Wasted Time: 0,0003).
+Action_SearchTicket_NotPayment.c(18): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(22): Notify: Transaction "login" started.
+..\\Parameters\\function.h(65): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(65): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(73): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(76): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(76): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=Welcome, <b>sheldon</b>, to the Web Tours reservation pages" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") was successful, 5782 body bytes, 2062 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(24): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,1365 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(27): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(31): Notify: Transaction "go_to_flights" started.
+Action_SearchTicket_NotPayment.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(37): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(41): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(139): Notify: Transaction "choice_time_and_cost" started.
+Action_SearchTicket_NotPayment.c(161): CostVal = 1103
+Action_SearchTicket_NotPayment.c(164): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(164): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/in_flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(169): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(169): Registered web_reg_find successful for "Text=1103" (count=2)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") was successful, 2761 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(188): Notify: Transaction "choice_time_and_cost" ended with a "Pass" status (Duration: 0,0466 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(195): Notify: Transaction "logout" started.
+..\\Parameters\\function.h(104): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(108): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=User has returned to the search page.  Since user has already logged on" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=<font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): web_url("Search Flights Button") was successful, 8516 body bytes, 1614 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(51): Notify: Transaction "go_to_flights" ended with a "Pass" status (Duration: 0,1811 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(54): lr_think_time: 2,00 seconds.
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+..\\Parameters\\function.h(108): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Parameters\\function.h(108): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(108): web_url("SignOff Button") was successful, 2175 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(197): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,1823 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(200): Notify: Transaction "UC_02_HW5_SearchTicket_NotPayment" ended with a "Pass" status (Duration: 8,8989 Think Time: 8,0402 Wasted Time: 0,0008).
+Ending action Action_SearchTicket_NotPayment.
+Ending iteration 152.
+Waiting 20,1010 seconds for iteration pacing.
+Action_SearchTicket_NotPayment.c(22): Notify: Transaction "login" started.
+..\\Parameters\\function.h(65): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(65): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(73): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(76): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(76): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=Welcome, <b>gary</b>, to the Web Tours reservation pages" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") was successful, 5779 body bytes, 2013 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(24): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,1223 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(27): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(31): Notify: Transaction "go_to_flights" started.
+Action_SearchTicket_NotPayment.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(37): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(41): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/in_flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=User has returned to the search page.  Since user has already logged on" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=<font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): web_url("Search Flights Button") was successful, 8516 body bytes, 1616 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(51): Notify: Transaction "go_to_flights" ended with a "Pass" status (Duration: 0,1863 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(54): lr_think_time: 2,00 seconds.
+Starting iteration 97.
+Starting action Action_SearchTicket_NotPayment.
+Action_SearchTicket_NotPayment.c(8): Notify: Transaction "UC_02_HW5_SearchTicket_NotPayment" started.
+Action_SearchTicket_NotPayment.c(10): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(10): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_SearchTicket_NotPayment.c(13): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(50): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(58): Notify: Transaction "choise_cities_passengers_seats" started.
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action_SearchTicket_NotPayment.c(77): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(77): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(88): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(88): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(125): depart-from - Frankfurt
+..\\Parameters\\function.h(129): arrive-to - Los Angeles
+..\\Parameters\\function.h(132): result -1
+..\\Parameters\\function.h(134): MATCH CHECK CITIES
+Action_SearchTicket_NotPayment.c(104): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(50): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(50): web_url("welcome.pl") was successful, 4216 body bytes, 1177 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(15): Notify: Transaction "open_webtours_site" ended with a "Pass" status (Duration: 0,1899 Wasted Time: 0,0004).
+Action_SearchTicket_NotPayment.c(18): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(108): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(108): Registered web_reg_find successful for "Text=Flight departing from <b>Frankfurt</b> to <b>Los Angeles</b> on <B>04/27/2023</B>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") was successful, 2453 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(132): Notify: Transaction "choise_cities_passengers_seats" ended with a "Pass" status (Duration: 0,0439 Wasted Time: 0,0004).
+Action_SearchTicket_NotPayment.c(135): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(31): Notify: Transaction "go_to_flights" started.
+Action_SearchTicket_NotPayment.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(37): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(41): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/in_flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=User has returned to the search page.  Since user has already logged on" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=<font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): web_url("Search Flights Button") was successful, 8516 body bytes, 1616 header bytes, 37 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(51): Notify: Transaction "go_to_flights" ended with a "Pass" status (Duration: 0,1771 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(54): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(58): Notify: Transaction "choise_cities_passengers_seats" started.
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action_SearchTicket_NotPayment.c(77): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(77): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(88): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(88): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(125): depart-from - Frankfurt
+..\\Parameters\\function.h(129): arrive-to - Zurich
+..\\Parameters\\function.h(132): result -1
+..\\Parameters\\function.h(134): MATCH CHECK CITIES
+Action_SearchTicket_NotPayment.c(104): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(108): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(108): Registered web_reg_find successful for "Text=Flight departing from <b>Frankfurt</b> to <b>Zurich</b> on <B>04/27/2023</B>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") was successful, 2447 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(132): Notify: Transaction "choise_cities_passengers_seats" ended with a "Pass" status (Duration: 0,0448 Wasted Time: 0,0003).
+Action_SearchTicket_NotPayment.c(135): lr_think_time: 2,00 seconds.
+Starting iteration 50.
+Starting action Action_SearchTicket_NotPayment.
+Action_SearchTicket_NotPayment.c(8): Notify: Transaction "UC_02_HW5_SearchTicket_NotPayment" started.
+Action_SearchTicket_NotPayment.c(10): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(10): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_SearchTicket_NotPayment.c(13): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(50): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(50): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(50): web_url("welcome.pl") was successful, 4216 body bytes, 1177 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(15): Notify: Transaction "open_webtours_site" ended with a "Pass" status (Duration: 0,1860 Wasted Time: 0,0004).
+Action_SearchTicket_NotPayment.c(18): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(22): Notify: Transaction "login" started.
+..\\Parameters\\function.h(65): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(65): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(73): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(76): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(76): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(139): Notify: Transaction "choice_time_and_cost" started.
+Action_SearchTicket_NotPayment.c(161): CostVal = 266
+Action_SearchTicket_NotPayment.c(164): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(164): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(169): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(169): Registered web_reg_find successful for "Text=266" (count=2)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") was successful, 2750 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(188): Notify: Transaction "choice_time_and_cost" ended with a "Pass" status (Duration: 0,0454 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(195): Notify: Transaction "logout" started.
+..\\Parameters\\function.h(104): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(108): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=Welcome, <b>patrick</b>, to the Web Tours reservation pages" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") was successful, 5782 body bytes, 2055 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(24): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,1375 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(27): lr_think_time: 2,00 seconds.
+..\\Parameters\\function.h(108): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Parameters\\function.h(108): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(108): web_url("SignOff Button") was successful, 2175 body bytes, 580 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(197): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,1199 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(200): Notify: Transaction "UC_02_HW5_SearchTicket_NotPayment" ended with a "Pass" status (Duration: 10,6686 Think Time: 8,0421 Wasted Time: 0,0009).
+Ending action Action_SearchTicket_NotPayment.
+Ending iteration 150.
+Waiting 18,3300 seconds for iteration pacing.
+Action_SearchTicket_NotPayment.c(58): Notify: Transaction "choise_cities_passengers_seats" started.
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action_SearchTicket_NotPayment.c(77): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(77): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(88): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(88): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(125): depart-from - London
+..\\Parameters\\function.h(129): arrive-to - Seattle
+..\\Parameters\\function.h(132): result -1
+..\\Parameters\\function.h(134): MATCH CHECK CITIES
+Action_SearchTicket_NotPayment.c(104): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(108): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(108): Registered web_reg_find successful for "Text=Flight departing from <b>London</b> to <b>Seattle</b> on <B>04/27/2023</B>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") was successful, 2438 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(132): Notify: Transaction "choise_cities_passengers_seats" ended with a "Pass" status (Duration: 0,0421 Wasted Time: 0,0004).
+Action_SearchTicket_NotPayment.c(135): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(139): Notify: Transaction "choice_time_and_cost" started.
+Action_SearchTicket_NotPayment.c(161): CostVal = 287
+Action_SearchTicket_NotPayment.c(164): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(164): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(169): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(169): Registered web_reg_find successful for "Text=287" (count=2)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") was successful, 2754 body bytes, 254 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(188): Notify: Transaction "choice_time_and_cost" ended with a "Pass" status (Duration: 0,0447 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(195): Notify: Transaction "logout" started.
+..\\Parameters\\function.h(104): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(108): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+..\\Parameters\\function.h(108): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Parameters\\function.h(108): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(108): web_url("SignOff Button") was successful, 2171 body bytes, 580 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(197): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,1756 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(200): Notify: Transaction "UC_02_HW5_SearchTicket_NotPayment" ended with a "Pass" status (Duration: 8,7289 Think Time: 8,0189 Wasted Time: 0,0008).
+Ending action Action_SearchTicket_NotPayment.
+Ending iteration 147.
+Waiting 20,2700 seconds for iteration pacing.
+Action_SearchTicket_NotPayment.c(22): Notify: Transaction "login" started.
+..\\Parameters\\function.h(65): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(65): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(73): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(76): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(76): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=Welcome, <b>patrick</b>, to the Web Tours reservation pages" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") was successful, 5782 body bytes, 1980 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(24): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,1303 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(27): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(31): Notify: Transaction "go_to_flights" started.
+Action_SearchTicket_NotPayment.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(37): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(41): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/in_flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Starting iteration 47.
+Starting action Action_SearchTicket_NotPayment.
+Action_SearchTicket_NotPayment.c(8): Notify: Transaction "UC_02_HW5_SearchTicket_NotPayment" started.
+Action_SearchTicket_NotPayment.c(10): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(10): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_SearchTicket_NotPayment.c(13): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(50): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(50): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(50): web_url("welcome.pl") was successful, 4214 body bytes, 1177 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(15): Notify: Transaction "open_webtours_site" ended with a "Pass" status (Duration: 0,1804 Wasted Time: 0,0003).
+Action_SearchTicket_NotPayment.c(18): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(139): Notify: Transaction "choice_time_and_cost" started.
+Action_SearchTicket_NotPayment.c(161): CostVal = 1695
+Action_SearchTicket_NotPayment.c(164): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(164): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(169): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(169): Registered web_reg_find successful for "Text=1695" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") was successful, 2871 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(188): Notify: Transaction "choice_time_and_cost" ended with a "Pass" status (Duration: 0,0432 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(195): Notify: Transaction "logout" started.
+..\\Parameters\\function.h(104): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(108): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+..\\Parameters\\function.h(108): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Parameters\\function.h(108): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(108): web_url("SignOff Button") was successful, 2176 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(197): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,1723 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(200): Notify: Transaction "UC_02_HW5_SearchTicket_NotPayment" ended with a "Pass" status (Duration: 8,7326 Think Time: 8,0401 Wasted Time: 0,0007).
+Ending action Action_SearchTicket_NotPayment.
+Ending iteration 100.
+Waiting 20,2670 seconds for iteration pacing.
+Ending Vuser...
+Starting action vuser_end.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Ending action vuser_end.
+Vuser Terminated.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Ending Vuser...
+Ending Vuser...
+Ending Vuser...
+Starting action vuser_end.
+Starting action vuser_end.
+Starting action vuser_end.
+Ending action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser Terminated.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Action_SearchTicket_NotPayment.c(31): Notify: Transaction "go_to_flights" started.
+Action_SearchTicket_NotPayment.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(37): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(41): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/in_flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=User has returned to the search page.  Since user has already logged on" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=<font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): web_url("Search Flights Button") was successful, 8516 body bytes, 1614 header bytes, 37 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(51): Notify: Transaction "go_to_flights" ended with a "Pass" status (Duration: 0,1886 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(54): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=User has returned to the search page.  Since user has already logged on" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=<font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): web_url("Search Flights Button") was successful, 8516 body bytes, 1617 header bytes, 37 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(51): Notify: Transaction "go_to_flights" ended with a "Pass" status (Duration: 2,1688 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(54): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(22): Notify: Transaction "login" started.
+..\\Parameters\\function.h(65): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(65): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(73): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(76): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(76): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=Welcome, <b>sandy</b>, to the Web Tours reservation pages" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") was successful, 5780 body bytes, 2064 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(24): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,1829 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(27): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(58): Notify: Transaction "choise_cities_passengers_seats" started.
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action_SearchTicket_NotPayment.c(77): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(77): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(88): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(88): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(125): depart-from - Portland
+..\\Parameters\\function.h(129): arrive-to - Seattle
+..\\Parameters\\function.h(132): result -1
+..\\Parameters\\function.h(134): MATCH CHECK CITIES
+Action_SearchTicket_NotPayment.c(104): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(108): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(108): Registered web_reg_find successful for "Text=Flight departing from <b>Portland</b> to <b>Seattle</b> on <B>04/27/2023</B>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") was successful, 2437 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(132): Notify: Transaction "choise_cities_passengers_seats" ended with a "Pass" status (Duration: 0,0436 Wasted Time: 0,0005).
+Action_SearchTicket_NotPayment.c(135): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(58): Notify: Transaction "choise_cities_passengers_seats" started.
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action_SearchTicket_NotPayment.c(77): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(77): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(88): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(88): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(125): depart-from - San Francisco
+..\\Parameters\\function.h(129): arrive-to - Portland
+..\\Parameters\\function.h(132): result 1
+..\\Parameters\\function.h(134): MATCH CHECK CITIES
+Action_SearchTicket_NotPayment.c(104): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(108): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(108): Registered web_reg_find successful for "Text=Flight departing from <b>San Francisco</b> to <b>Portland</b> on <B>04/27/2023</B>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") was successful, 2456 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(132): Notify: Transaction "choise_cities_passengers_seats" ended with a "Pass" status (Duration: 0,0827 Wasted Time: 0,0004).
+Action_SearchTicket_NotPayment.c(135): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(31): Notify: Transaction "go_to_flights" started.
+Action_SearchTicket_NotPayment.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(37): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(41): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/in_flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(41): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action_SearchTicket_NotPayment.c(41): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=User has returned to the search page.  Since user has already logged on" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): Registered web_reg_find successful for "Text=<font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(41): web_url("Search Flights Button") was successful, 8516 body bytes, 1616 header bytes, 37 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(51): Notify: Transaction "go_to_flights" ended with a "Pass" status (Duration: 0,1793 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(54): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(139): Notify: Transaction "choice_time_and_cost" started.
+Action_SearchTicket_NotPayment.c(161): CostVal = 83
+Action_SearchTicket_NotPayment.c(164): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(164): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(169): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(169): Registered web_reg_find successful for "Text=83" (count=2)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") was successful, 2738 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(188): Notify: Transaction "choice_time_and_cost" ended with a "Pass" status (Duration: 0,0421 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(195): Notify: Transaction "logout" started.
+..\\Parameters\\function.h(104): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(108): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+..\\Parameters\\function.h(108): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Parameters\\function.h(108): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(108): web_url("SignOff Button") was successful, 2175 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(197): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,1778 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(200): Notify: Transaction "UC_02_HW5_SearchTicket_NotPayment" ended with a "Pass" status (Duration: 8,7875 Think Time: 8,0178 Wasted Time: 0,0010).
+Ending action Action_SearchTicket_NotPayment.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Action_SearchTicket_NotPayment.c(139): Notify: Transaction "choice_time_and_cost" started.
+Action_SearchTicket_NotPayment.c(161): CostVal = 504
+Action_SearchTicket_NotPayment.c(164): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(164): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(169): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(169): Registered web_reg_find successful for "Text=504" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") was successful, 2946 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(188): Notify: Transaction "choice_time_and_cost" ended with a "Pass" status (Duration: 0,0421 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(195): Notify: Transaction "logout" started.
+..\\Parameters\\function.h(104): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(108): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+..\\Parameters\\function.h(108): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Parameters\\function.h(108): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(108): web_url("SignOff Button") was successful, 2175 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(197): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,1767 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(200): Notify: Transaction "UC_02_HW5_SearchTicket_NotPayment" ended with a "Pass" status (Duration: 10,8257 Think Time: 8,0270 Wasted Time: 0,0008).
+Ending action Action_SearchTicket_NotPayment.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Action_SearchTicket_NotPayment.c(58): Notify: Transaction "choise_cities_passengers_seats" started.
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(60): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action_SearchTicket_NotPayment.c(77): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(77): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(88): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(88): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(125): depart-from - Portland
+..\\Parameters\\function.h(129): arrive-to - San Francisco
+..\\Parameters\\function.h(132): result -1
+..\\Parameters\\function.h(134): MATCH CHECK CITIES
+Action_SearchTicket_NotPayment.c(104): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(108): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(108): Registered web_reg_find successful for "Text=Flight departing from <b>Portland</b> to <b>San Francisco</b> on <B>04/27/2023</B>" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(108): web_submit_data("reservations.pl") was successful, 2455 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(132): Notify: Transaction "choise_cities_passengers_seats" ended with a "Pass" status (Duration: 0,0457 Wasted Time: 0,0002).
+Action_SearchTicket_NotPayment.c(135): lr_think_time: 2,00 seconds.
+Action_SearchTicket_NotPayment.c(139): Notify: Transaction "choice_time_and_cost" started.
+Action_SearchTicket_NotPayment.c(161): CostVal = 208
+Action_SearchTicket_NotPayment.c(164): web_reg_find started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(164): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+Action_SearchTicket_NotPayment.c(169): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_SearchTicket_NotPayment.c(169): Registered web_reg_find successful for "Text=208" (count=1)  	[MsgId: MMSG-26364]
+Action_SearchTicket_NotPayment.c(169): web_submit_data("reservations.pl_2") was successful, 2820 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(188): Notify: Transaction "choice_time_and_cost" ended with a "Pass" status (Duration: 0,0436 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(195): Notify: Transaction "logout" started.
+..\\Parameters\\function.h(104): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(108): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(108): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+..\\Parameters\\function.h(108): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\Parameters\\function.h(108): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(108): web_url("SignOff Button") was successful, 2176 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_SearchTicket_NotPayment.c(197): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,1662 Wasted Time: 0,0000).
+Action_SearchTicket_NotPayment.c(200): Notify: Transaction "UC_02_HW5_SearchTicket_NotPayment" ended with a "Pass" status (Duration: 8,8204 Think Time: 8,0210 Wasted Time: 0,0006).
+Ending action Action_SearchTicket_NotPayment.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

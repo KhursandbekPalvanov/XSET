@@ -1,0 +1,380 @@
+[API Trapper      (30e8:4ae0)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (5340: 7f8)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (292c:4628)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (292c:604c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (292c:604c)] Load Network Traffic Analyzers:
+[Network Analyzer (292c:604c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (292c:604c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (292c:604c)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (292c:604c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (292c:604c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (292c:604c)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (292c:604c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (292c:2564)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Net An. Debug    (292c:2564)] IP address belongs to the VirtualBox, taking the another interface with ip=192.168.0.101
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Web Request      (292c:2564)] "CONNECT clientservices.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid:  1) Client -> Server @ : 250 bytes (Service=HTTP)
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (292c:2564)]   (Sid:  1) Server -> Client : 107 bytes 
+[Web Request      (292c:2564)] "CONNECT accounts.google.com:443"   
+[Network Analyzer (292c:2564)]   (Sid:  4) Client -> Server @ : 230 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid:  4) Server -> Client : 107 bytes 
+[Network Analyzer (292c:5bdc)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (292c:4e50)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (292c:5bdc)] SSLAccept(ssl_id = 1983354080448 = 000001CDC91D8CC0) Failed, ctx = 000001CDC91C2150, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (292c:5bdc)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (292c:4e50)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (292c:2564)] "GET http://localhost:1080/cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (292c:2564)]   (Sid:  2) Client -> Server @ : 762 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid:  4) Client -> Server @ : 2391 bytes (SSL)(Service=HTTP)
+[Web Request      (292c:2564)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (292c:2564)]   (Sid:  4) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid:  4) Server -> Client : 2147 bytes (SSL) (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid:  4) Server -> Client : 439 bytes (SSL) (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid:  4) Server -> Client : 35 bytes (SSL) (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid:  4) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (292c:2564)]   (Sid:  2) Server -> Client : 1026 bytes  (Service=HTTP)
+[Web Request      (292c:2564)] "GET http://localhost:1080/cgi-bin/nav.pl?in=home"   
+[Network Analyzer (292c:2564)]   (Sid:  2) Client -> Server @ : 803 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid:  2) Server -> Client : 1756 bytes  (Service=HTTP)
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (292c:2564)] "GET http://localhost:1080/favicon.ico"   
+[Network Analyzer (292c:2564)]   (Sid:  2) Client -> Server @ : 668 bytes (Service=HTTP)
+[Web Request      (292c:2564)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid:  5) Client -> Server @ : 228 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid:  2) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid:  5) Server -> Client : 107 bytes 
+[Network Analyzer (292c:1e3c)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (292c:1e3c)] SSLAccept(ssl_id = 1983354195856 = 000001CDC91F4F90) Failed, ctx = 000001CDC91C2150, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (292c:1e3c)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (292c:2564)] "CONNECT update.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid:  6) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (292c:2564)] "CONNECT mtalk.google.com:5228"   
+[Network Analyzer (292c:2564)]   (Sid:  7) Client -> Server @ : 101 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid:  6) Server -> Client : 107 bytes 
+[Network Analyzer (292c:2564)]   (Sid:  7) Server -> Client : 107 bytes 
+[Network Analyzer (292c:1e4c)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (292c:1e4c)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (292c:2564)]   (Sid:  6) Client -> Server @ : 829 bytes (SSL)(Service=HTTP)
+[Web Request      (292c:2564)] "POST /service/update2/json?cup2key=12:-NFhdUeR5sVtdjtDDqATEx1e5CI2GT_x1GqUjV6Rbm4&cup2hreq=34f0efff3708bab8b8a6970a47b41bb8ec178372cfebf364e6b37e3888cb1fb0"   
+[Network Analyzer (292c:2564)]   (Sid:  6) Client -> Server @ : 2061 bytes (SSL)(Service=HTTP)
+[Network Analyzer (292c:21a0)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (292c:21a0)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (292c:2564)]   (Sid:  7) Client -> Server @ : 155 bytes (SSL)
+[Network Analyzer (292c:2564)]   (Sid:  7) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (292c:2564)]   (Sid:  6) Server -> Client : 1149 bytes (SSL) (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid:  6) Server -> Client : 483 bytes (SSL) (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid:  6) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[API Trapper      (1b08:20cc)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (292c:2564)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (292c:2564)]   (Sid:  7) Server -> Client : 67 bytes (SSL)
+[Network Analyzer (292c:2564)]   (Sid:  7) Server -> Client : 12 bytes (SSL)
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Web Request      (292c:2564)] "CONNECT www.google.com:443"   
+[Network Analyzer (292c:2564)]   (Sid:  8) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      (292c:2564)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid:  9) Client -> Server @ : 228 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid:  8) Server -> Client : 107 bytes 
+[Network Analyzer (292c:2564)]   (Sid:  9) Server -> Client : 107 bytes 
+[Network Analyzer (292c:26b0)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (292c:26b0)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (292c:5584)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (292c:5584)] SSLAccept(ssl_id = 1983354080448 = 000001CDC91D8CC0) Failed, ctx = 000001CDC91C2150, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (292c:5584)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (292c:2564)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (292c:2564)] "POST http://localhost:1080/cgi-bin/login.pl"   
+[Network Analyzer (292c:2564)]   (Sid:  2) Client -> Server @ : 1058 bytes (Service=HTTP)
+[Web Request      (292c:2564)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid: 10) Client -> Server @ : 228 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 10) Server -> Client : 107 bytes 
+[Network Analyzer (292c:2564)]   (Sid:  2) Server -> Client : 851 bytes  (Service=HTTP)
+[Web Request      (292c:2564)] "GET http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (292c:2564)]   (Sid:  2) Client -> Server @ : 928 bytes (Service=HTTP)
+[Web Request      (292c:2564)] "GET http://localhost:1080/cgi-bin/login.pl?intro=true"   
+[Network Analyzer (292c:2564)]   (Sid:  3) Client -> Server @ : 923 bytes (Service=HTTP)
+[Network Analyzer (292c:5268)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (292c:5268)] SSLAccept(ssl_id = 1983354080448 = 000001CDC91D8CC0) Failed, ctx = 000001CDC91C2150, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (292c:5268)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      (292c:2564)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid: 11) Client -> Server @ : 228 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid:  2) Server -> Client : 255 bytes  (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid:  2) Server -> Client : 1494 bytes  (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 11) Server -> Client : 107 bytes 
+[Network Analyzer (292c:5914)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (292c:5914)] SSLAccept(ssl_id = 1983354880240 = 000001CDC929C0F0) Failed, ctx = 000001CDC91C2150, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (292c:5914)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (292c:2564)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (292c:2564)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (292c:2564)]   (Sid:  3) Server -> Client : 1159 bytes  (Service=HTTP)
+[Web Request      (292c:2564)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid: 12) Client -> Server @ : 228 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 12) Server -> Client : 107 bytes 
+[Network Analyzer (292c:3dc8)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (292c:3dc8)] SSLAccept(ssl_id = 1983354677904 = 000001CDC926AA90) Failed, ctx = 000001CDC91C2150, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (292c:3dc8)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (292c:2564)]   (Sid: 12) Connection Terminated (by Client)
+[Web Request      (292c:2564)] "GET http://localhost:1080/cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (292c:2564)]   (Sid:  3) Client -> Server @ : 942 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid:  3) Server -> Client : 843 bytes  (Service=HTTP)
+[Web Request      (292c:2564)] "GET http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer (292c:2564)]   (Sid:  3) Client -> Server @ : 945 bytes (Service=HTTP)
+[Web Request      (292c:2564)] "GET http://localhost:1080/cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer (292c:2564)]   (Sid:  2) Client -> Server @ : 946 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid:  2) Server -> Client : 4520 bytes  (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid:  3) Server -> Client : 1749 bytes  (Service=HTTP)
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Web Request      (292c:2564)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid: 13) Client -> Server @ : 228 bytes (Service=HTTP)
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 14)  PROXIED!
+[Web Request      (292c:2564)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid: 14) Client -> Server @ : 228 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 14) Server -> Client : 107 bytes 
+[Network Analyzer (292c:2564)]   (Sid: 13) Server -> Client : 107 bytes 
+[Network Analyzer (292c:1fd4)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (292c:1fd4)] SSLAccept(ssl_id = 1983354952400 = 000001CDC92ADAD0) Failed, ctx = 000001CDC91C2150, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (292c:1fd4)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (292c:644c)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (292c:644c)] SSLAccept(ssl_id = 1983354940080 = 000001CDC92AAAB0) Failed, ctx = 000001CDC91C2150, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (292c:644c)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:2564)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (292c:2564)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (292c:2564)]   (Sid:  8) Connection Terminated (by Server)
+[Web Request      (292c:2564)] "CONNECT optimizationguide-pa.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid: 15) Client -> Server @ : 262 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 15) Server -> Client : 107 bytes 
+[Network Analyzer (292c:3c5c)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (292c:3c5c)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (292c:2564)] "POST /v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (292c:2564)]   (Sid: 15) Client -> Server @ : 1095 bytes (SSL)(Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 15) Server -> Client : 946 bytes (SSL) (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 15) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 16)  PROXIED!
+[Web Request      (292c:2564)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid: 16) Client -> Server @ : 228 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 16) Server -> Client : 107 bytes 
+[Network Analyzer (292c:5350)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (292c:5350)] SSLAccept(ssl_id = 1983354933920 = 000001CDC92A92A0) Failed, ctx = 000001CDC91C2150, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (292c:5350)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (292c:2564)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      (292c:2564)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid: 17) Client -> Server @ : 228 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 17) Server -> Client : 107 bytes 
+[Network Analyzer (292c:6ac0)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (292c:6ac0)] SSLAccept(ssl_id = 1983354933920 = 000001CDC92A92A0) Failed, ctx = 000001CDC91C2150, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (292c:6ac0)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (292c:2564)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 18)  PROXIED!
+[Web Request      (292c:2564)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid: 18) Client -> Server @ : 228 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 18) Server -> Client : 107 bytes 
+[Network Analyzer (292c:69b8)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (292c:69b8)] SSLAccept(ssl_id = 1983354952400 = 000001CDC92ADAD0) Failed, ctx = 000001CDC91C2150, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (292c:69b8)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (292c:2564)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 19)  PROXIED!
+[Web Request      (292c:2564)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid: 19) Client -> Server @ : 228 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 19) Server -> Client : 107 bytes 
+[Network Analyzer (292c:6038)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (292c:6038)] SSLAccept(ssl_id = 1983354952400 = 000001CDC92ADAD0) Failed, ctx = 000001CDC91C2150, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (292c:6038)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 20)  PROXIED!
+[Web Request      (292c:2564)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid: 20) Client -> Server @ : 228 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 20) Server -> Client : 107 bytes 
+[Network Analyzer (292c:2564)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (292c:5dec)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (292c:5dec)] SSLAccept(ssl_id = 1983354946240 = 000001CDC92AC2C0) Failed, ctx = 000001CDC91C2150, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (292c:5dec)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (292c:2564)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Web Request      (292c:2564)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid: 21) Client -> Server @ : 228 bytes (Service=HTTP)
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 22)  PROXIED!
+[Web Request      (292c:2564)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid: 22) Client -> Server @ : 228 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 21) Server -> Client : 107 bytes 
+[Network Analyzer (292c:2564)]   (Sid: 22) Server -> Client : 107 bytes 
+[Network Analyzer (292c:41e0)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (292c:41e0)] SSLAccept(ssl_id = 1983354952400 = 000001CDC92ADAD0) Failed, ctx = 000001CDC91C2150, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (292c:41e0)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (292c:6834)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (292c:6834)] SSLAccept(ssl_id = 1983349725408 = 000001CDC8DB18E0) Failed, ctx = 000001CDC91C2150, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (292c:6834)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (292c:2564)]   (Sid: 21) Connection Terminated (by Client)
+[Network Analyzer (292c:2564)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 23)  PROXIED!
+[Web Request      (292c:2564)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid: 23) Client -> Server @ : 228 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 23) Server -> Client : 107 bytes 
+[Network Analyzer (292c:4e3c)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (292c:4e3c)] SSLAccept(ssl_id = 1983354933920 = 000001CDC92A92A0) Failed, ctx = 000001CDC91C2150, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (292c:4e3c)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (292c:2564)]   (Sid: 23) Connection Terminated (by Client)
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 24)  PROXIED!
+[Web Request      (292c:2564)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid: 24) Client -> Server @ : 228 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 24) Server -> Client : 107 bytes 
+[Network Analyzer (292c:533c)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (292c:533c)] SSLAccept(ssl_id = 1983354946240 = 000001CDC92AC2C0) Failed, ctx = 000001CDC91C2150, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (292c:533c)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 25)  PROXIED!
+[Web Request      (292c:2564)] "CONNECT update.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid: 25) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 25) Server -> Client : 107 bytes 
+[Network Analyzer (292c:638c)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (292c:638c)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (292c:2564)] "POST /service/update2/json?cup2key=12:K4fHVBYDBAgN-8UJDmGJIJL3x2q8oBmx5mRljlDZhEI&cup2hreq=461e0ebd2c1c337c78132fdc39eb38318a35d3d31e65e6673fa9b3e043256c83"
+[Network Analyzer (292c:2564)]   (Sid: 25) Client -> Server @ : 1333 bytes (SSL)(Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 25) Client -> Server @ : 8739 bytes (SSL)(Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 25) Server -> Client : 1149 bytes (SSL) (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 25) Server -> Client : 1158 bytes (SSL) (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 25) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 24) Connection Terminated (by Client)
+[Web Request      (292c:2564)] "POST http://localhost:1080/cgi-bin/reservations.pl"   
+[Network Analyzer (292c:2564)]   (Sid:  3) Client -> Server @ : 1306 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid:  3) Server -> Client : 2714 bytes  (Service=HTTP)
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 26)  PROXIED!
+[Web Request      (292c:2564)] "CONNECT www.google.com:443"   
+[Network Analyzer (292c:2564)]   (Sid: 26) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 26) Server -> Client : 107 bytes 
+[Network Analyzer (292c:2108)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (292c:2108)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (292c:2564)]   (Sid: 26) Connection Terminated (by Server)
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 27)  PROXIED!
+[Web Request      (292c:2564)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid: 27) Client -> Server @ : 228 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 27) Server -> Client : 107 bytes 
+[Network Analyzer (292c:2f88)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (292c:2f88)] SSLAccept(ssl_id = 1983358519552 = 000001CDC9614900) Failed, ctx = 000001CDC91C2150, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (292c:2f88)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (292c:2564)]   (Sid: 27) Connection Terminated (by Client)
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 28)  PROXIED!
+[Web Request      (292c:2564)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid: 28) Client -> Server @ : 228 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 28) Server -> Client : 107 bytes 
+[Network Analyzer (292c:5480)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (292c:5480)] SSLAccept(ssl_id = 1983358531872 = 000001CDC9617920) Failed, ctx = 000001CDC91C2150, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (292c:5480)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (292c:2564)]   (Sid: 28) Connection Terminated (by Client)
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 29)  PROXIED!
+[Web Request      (292c:2564)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid: 29) Client -> Server @ : 228 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 29) Server -> Client : 107 bytes 
+[Network Analyzer (292c:2558)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (292c:2558)] SSLAccept(ssl_id = 1983358544192 = 000001CDC961A940) Failed, ctx = 000001CDC91C2150, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (292c:2558)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (292c:2564)]   (Sid: 29) Connection Terminated (by Client)
+[Web Request      (292c:2564)] "POST http://localhost:1080/cgi-bin/reservations.pl"   
+[Network Analyzer (292c:2564)]   (Sid:  3) Client -> Server @ : 1200 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid:  3) Server -> Client : 2970 bytes  (Service=HTTP)
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 30)  PROXIED!
+[Web Request      (292c:2564)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid: 30) Client -> Server @ : 228 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 30) Server -> Client : 107 bytes 
+[Network Analyzer (292c:5c98)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (292c:5c98)] SSLAccept(ssl_id = 1983358531872 = 000001CDC9617920) Failed, ctx = 000001CDC91C2150, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (292c:5c98)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (292c:2564)]   (Sid: 30) Connection Terminated (by Client)
+[Network Analyzer (292c:604c)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (292c:604c)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 31)  PROXIED!
+[Web Request      (292c:2564)] "GET http://localhost:1080/cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (292c:2564)]   (Sid:  3) Client -> Server @ : 943 bytes (Service=HTTP)
+[Web Request      (292c:2564)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (292c:2564)]   (Sid: 31) Client -> Server @ : 228 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid: 31) Server -> Client : 107 bytes 
+[Network Analyzer (292c: fbc)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (292c: fbc)] SSLAccept(ssl_id = 1983358531872 = 000001CDC9617920) Failed, ctx = 000001CDC91C2150, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (292c: fbc)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (292c:2564)]   (Sid: 31) Connection Terminated (by Client)
+[Network Analyzer (292c:2564)]   (Sid:  3) Server -> Client : 1026 bytes  (Service=HTTP)
+[Web Request      (292c:2564)] "GET http://localhost:1080/cgi-bin/nav.pl?in=home"   
+[Network Analyzer (292c:2564)]   (Sid:  3) Client -> Server @ : 820 bytes (Service=HTTP)
+[Network Analyzer (292c:2564)]   (Sid:  3) Server -> Client : 1751 bytes  (Service=HTTP)
+[API Trapper      ( 298:631c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe

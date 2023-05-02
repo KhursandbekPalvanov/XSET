@@ -1,0 +1,120 @@
+[
+    {
+        "actionName": "Action_BuyTicket",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t2.inf",
+                "time": 1682665939945
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1682665942206
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t4.inf",
+                "time": 1682665942534
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t6.inf",
+                "time": 1682665942713
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t7.inf",
+                "time": 1682665942964
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t8.inf",
+                "time": 1682665943224
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t9.inf",
+                "time": 1682665943497
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t10.inf",
+                "time": 1682665943677
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "open_webtours_site",
+                "rawStartTime": 1682665935718,
+                "rawEndTime": 1682665939961,
+                "thinkTime": 0.0,
+                "wastedTime": 0.07143545150756836
+            },
+            {
+                "transactionName": "login",
+                "rawStartTime": 1682665939976,
+                "rawEndTime": 1682665942213,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005921363830566406
+            },
+            {
+                "transactionName": "go_to_flights",
+                "rawStartTime": 1682665942245,
+                "rawEndTime": 1682665942542,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0039691925048828129
+            },
+            {
+                "transactionName": "choise_cities_passengers_seats",
+                "rawStartTime": 1682665942558,
+                "rawEndTime": 1682665942726,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005574226379394531
+            },
+            {
+                "transactionName": "choice_time_and_cost",
+                "rawStartTime": 1682665942742,
+                "rawEndTime": 1682665942980,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004352569580078125
+            },
+            {
+                "transactionName": "input_user_info",
+                "rawStartTime": 1682665942996,
+                "rawEndTime": 1682665943232,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0035753250122070314
+            },
+            {
+                "transactionName": "go_to_itenary",
+                "rawStartTime": 1682665943248,
+                "rawEndTime": 1682665943512,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005181789398193359
+            },
+            {
+                "transactionName": "logout",
+                "rawStartTime": 1682665943528,
+                "rawEndTime": 1682665943697,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0032508373260498049
+            },
+            {
+                "transactionName": "UC_03_HW5_BuyTicket",
+                "rawStartTime": 1682665935677,
+                "rawEndTime": 1682665943718,
+                "thinkTime": 0.0,
+                "wastedTime": 0.10326075553894043
+            }
+        ]
+    }
+]

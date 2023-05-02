@@ -1,0 +1,1939 @@
+****** Start Log Message ******
+Web Recorder version : 2021.0.0.430 
+Recording Mode: HTML-based script containing explicit URLs only
+Recording headers not in list:
+	accept
+	accept-charset
+	accept-encoding
+	accept-language
+	accept-ranges
+	age
+	allow
+	cache-control
+	content-base
+	content-disposition
+	content-encoding
+	content-language
+	content-location
+	content-md5
+	content-range
+	content-type
+	date
+	etag
+	expires
+	from
+	if-modified-since
+	if-match
+	if-none-match
+	if-range
+	if-unmodified-since
+	location
+	last-modified
+	max-forwards
+	pragma
+	public
+	range
+	retry-after
+	server
+	transfer-encoding
+	upgrade
+	user-agent
+	vary
+	via
+	warning
+	method
+	path
+	scheme
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+	application/json
+Reset context between actions
+Do not record non-HTML elements
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 2021.0.0.430
+
+****** Analyze segments filter initialization ******
+[Traffic Filtering] Filtering accounts.google.com:443443
+[Traffic Filtering] Filtering 216.58.209.173
+[Traffic Filtering] Filtering 216.58.209.173
+[Traffic Filtering] Filtering clientservices.googleapis.com:443443
+[Traffic Filtering] Filtering 216.58.210.131
+[Traffic Filtering] Filtering 216.58.210.131
+[Traffic Filtering] Filtering clientservices.googleapis.com
+****** Error: found multiple wplus_http_wsock_request_ex events with the same processID, sessionid and httpid!
+****** Request Header For Transaction With Id 26 ******
+GET /chrome-variations/seed?osname=win&channel=stable&milestone=111 HTTP/1.1
+Host: clientservices.googleapis.com
+Connection: keep-alive
+If-None-Match: SMChYyMDIzMDQwOS0xODAwNTIuMTQ3MDAwEggIABADGG8gAA==#8RVu3gTvzPQ=
+A-IM: x-bm,gzip
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+
+
+$$$$$$ Request Header For Transaction With Id 26 Ended $$$$$$
+
+****** Response Header For Transaction With Id 26 ******
+HTTP/1.1 304 Not Modified
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 0
+Date: Mon, 10 Apr 2023 14:24:15 GMT
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+
+$$$$$$ Response Header For Transaction With Id 26 Ended $$$$$$
+
+[Traffic Filtering] Filtering accounts.google.com
+****** Error: found multiple wplus_http_wsock_request_ex events with the same processID, sessionid and httpid!
+****** Request Header For Transaction With Id 28 ******
+POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard HTTP/1.1
+Host: accounts.google.com
+Connection: keep-alive
+Content-Length: 1
+Origin: https://www.google.com
+Content-Type: application/x-www-form-urlencoded
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: OTZ=6947548_44_44_123780_40_436260; SID=Ugg7YtXd41f2tg95J9iv-OnODTeL4U1K4ZJT4eZYzx4SApvEsMk_tRXShUDQmTBK7bnD5w.; __Secure-1PSID=Ugg7YtXd41f2tg95J9iv-OnODTeL4U1K4ZJT4eZYzx4SApvEhaPq9wgANzObhG7YBClohQ.; __Secure-3PSID=Ugg7YtXd41f2tg95J9iv-OnODTeL4U1K4ZJT4eZYzx4SApvEk0lS7XakYL3jtXMPp0-Rpg.; HSID=A6NjehAicuMIWJKdV; SSID=AHy1aKiKJ6erspO_W; APISID=JLhF1tkpdmZhSpnZ/AQN7J5Hvp-4bqTd5R; SAPISID=4IoLt962MUhC3k6a/AFMJc5ydqqtHJGb2P; __Secure-1PAPISID=4IoLt962MUhC3k6a/AFMJc5ydqqtHJGb2P; __Secure-3PAPISID=4IoLt962MUhC3k6a/AFMJc5ydqqtHJGb2P; ACCOUNT_CHOOSER=AFx_qI7j31J2NIK1QHh6iOyyJosWvX11TLilwVPlyB70wWT4WNendGYX1DW91OQMCROXnMzI8I0YuAVwsE8FPGo3qKheLwmLR1d-mTMvtOQq7z6p52x19x5cJS5_BovcCJU8922xTQer; SEARCH_SAMESITE=CgQI-JcB; LSID=o.drive.google.com|o.mail.google.com|s.RU|s.youtube:Ugg7YoVanTS9xVskjKYMX9ESrAH7IQGpN0AjRCGzjTBpl34-o8HVxESXtZHI7XGWYImYEA.; __Host-1PLSID=o.drive.google.com|o.mail.google.com|s.RU|s.youtube:Ugg7YoVanTS9xVskjKYMX9ESrAH7IQGpN0AjRCGzjTBpl34-i09Q3xXkP9RKftyH-gAiRA.; __Host-3PLSID=o.drive.google.com|o.mail.google.com|s.RU|s.youtube:Ugg7YoVanTS9xVskjKYMX9ESrAH7IQGpN0AjRCGzjTBpl34-4i20qPqfADTkKFsc3ieccA.; AEC=AUEFqZdbpH9LTxd_iXWpeG5oGLKmlmkLsZC8HE79-PyN3KWh2McPNvsiBg; NID=511=d_G1XuHp9xq6L0Co-9Z5fPuUBQB4AvfKUJQR9ZStDLtfzoxtzovk01SJWODI5zjemHle4dzVi_C8A3bwe5yScEdEP9zm3OJaVzXbHVNiFa1yKHWt0oDRPQNF7VOdiWjefikLYDm9tRt6CwbzN7FFdBapcREohn1QfM0wY9A9HVyiZrSbQ26fhxbxoPuYv4cUleVq66g62LRqvWTegS1P82Q_8Ggtp4K_BCpZ4UY7nO96hnnut70u2glbV6v_EQ; 1P_JAR=2023-04-03-19; __Host-GAPS=1:EjwcWwqCnlFf9Zr22oZBYjp28aO5y_x7RDa5TCoWdfNvOxiR9pSYooHITjcHmjvBxqT0gelXFMusV-k8LxGrX5ZA3voTlQ:8bUrv_BMVhMTu6Zs; SIDCC=AFvIBn-FVfyR_1FBvimd6bhge8KYcxWrBx2JUiW1y4pIIW_OPqqjmTGfKTrj5kb0a5WTVbeSwA; __Secure-1PSIDCC=AFvIBn98nn7PznjYCqha2Lt2ObY-Gn0ftKL-VCQ8n2YHw2GOjfO2pnr-mYeE8cQfwKBDDmYgMYw; __Secure-3PSIDCC=AFvIBn-NPmwtajg7KfrDdXFvzXvhCFD6zT-VktrnDSTeolDOm7poQVSbOWZ1SPjhXe6O0w_fBAY
+
+
+$$$$$$ Request Header For Transaction With Id 28 Ended $$$$$$
+
+****** Request Body For Transaction With Id 28 ******
+ 
+$$$$$$ Request Body For Transaction With Id 28 Ended $$$$$$
+
+****** Response Header For Transaction With Id 28 ******
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: https://www.google.com
+Access-Control-Allow-Credentials: true
+X-Content-Type-Options: nosniff
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Mon, 10 Apr 2023 14:24:15 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Cross-Origin-Opener-Policy: same-origin
+Content-Security-Policy: script-src 'report-sample' 'nonce-7QbdVZ4rz_rxWLczeLGRAQ' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/IdentityListAccountsHttp/cspreport;worker-src 'self'
+Content-Security-Policy: script-src 'unsafe-inline' 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.googletagmanager.com https://www.gstatic.com https://www.google-analytics.com;report-uri /_/IdentityListAccountsHttp/cspreport/allowlist
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/IdentityListAccountsHttp/cspreport
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-platform=*, ch-ua-platform-version=*
+Content-Encoding: gzip
+Server: ESF
+X-XSS-Protection: 0
+Set-Cookie: SIDCC=AFvIBn9vRyqtqzslJv_Od_UoAsDqyV6ieL20iRewMEMCVLHAnGzP5arIGYzuv7QySChIxnt1oA; expires=Tue, 09-Apr-2024 14:24:15 GMT; path=/; domain=.google.com; priority=high
+Set-Cookie: __Secure-1PSIDCC=AFvIBn_fWEkC_GiE46AZkdtHYZbZv_tnFzecFUuGf3V2aZYhKgB9Rhtyerj-5LkClYIk9HokLq4; expires=Tue, 09-Apr-2024 14:24:15 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high
+Set-Cookie: __Secure-3PSIDCC=AFvIBn_GOYKRXpglNeJLZtc_RTEuSguikoguY889GjYS9rsJVEVgGWF1_wFltDTuQJEDgfKq2gk; expires=Tue, 09-Apr-2024 14:24:15 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high; SameSite=none
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 28 Ended $$$$$$
+
+****** Response Body For Transaction With Id 28 ******
+["gaia.l.a.r",[["gaia.l.a",1,"Khurs _","khpalv98@gmail.com","https://lh3.googleusercontent.com/-lhBU3EbaW88/AAAAAAAAAAI/AAAAAAAAAAA/qTeQsB6F2oo/s48-c/photo.jpg",1,1,0,null,1,"113585550787550560882",null,null,null,null,1]]]
+$$$$$$ Response Body For Transaction With Id 28 Ended $$$$$$
+
+****** Request Header For Transaction With Id 33 ******
+GET http://localhost:1080/cgi-bin/welcome.pl?signOff=true HTTP/1.1
+Host: localhost:1080
+Proxy-Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/WebTours/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+$$$$$$ Request Header For Transaction With Id 33 Ended $$$$$$
+
+****** Response Header For Transaction With Id 33 ******
+HTTP/1.1 200 OK
+Date: Mon, 10 Apr 2023 14:24:18 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1681136658; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Sun, 09-Apr-2023 14:24:18 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 33 Ended $$$$$$
+
+****** Response Body For Transaction With Id 33 ******
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 33 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Start Log Message ******
+Set SSL version to 'AUTO'
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 33 ****** (Location Flag : tFlagInsertEnd, Location ID : 33)
+	web_url("welcome.pl",
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=true",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/WebTours/",
+		"Snapshot=t1.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 33 Ended $$$$$$
+
+****** Request Header For Transaction With Id 35 ******
+GET http://localhost:1080/cgi-bin/nav.pl?in=home HTTP/1.1
+Host: localhost:1080
+Proxy-Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=true
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1681136658
+
+
+$$$$$$ Request Header For Transaction With Id 35 Ended $$$$$$
+
+****** Response Header For Transaction With Id 35 ******
+HTTP/1.1 200 OK
+Date: Mon, 10 Apr 2023 14:24:18 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Sun, 09 Apr 2023 14:24:18 GMT
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 35 Ended $$$$$$
+
+****** Response Body For Transaction With Id 35 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="136179.559173755HAAtHDzpAHftcAciptVztf"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 35 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/cgi-bin/welcome.pl?signOff=true
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 39 ******
+GET http://localhost:1080/favicon.ico HTTP/1.1
+Host: localhost:1080
+Proxy-Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:1080/WebTours/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1681136658
+
+
+$$$$$$ Request Header For Transaction With Id 39 Ended $$$$$$
+
+****** Response Header For Transaction With Id 39 ******
+HTTP/1.1 404 Not Found
+Date: Mon, 10 Apr 2023 14:24:18 GMT
+Server: Apache/2.2.21 (Win32)
+Content-Length: 209
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 39 Ended $$$$$$
+
+****** Response Body For Transaction With Id 39 ******
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /favicon.ico was not found on this server.</p>
+</body></html>
+
+$$$$$$ Response Body For Transaction With Id 39 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/cgi-bin/welcome.pl?signOff=true
+	/cgi-bin/nav.pl?in=home
+	Form: name= action=/cgi-bin/login.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+[Traffic Filtering] Filtering www.googleapis.com:443443
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering www.google.com:443443
+[Traffic Filtering] Filtering 216.58.209.164
+[Traffic Filtering] Filtering 216.58.209.164
+[Traffic Filtering] Filtering update.googleapis.com:443443
+[Traffic Filtering] Filtering 216.58.209.195
+[Traffic Filtering] Filtering 216.58.209.195
+[Traffic Filtering] Filtering www.googleapis.com:443443
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering mtalk.google.com:52285228
+[Traffic Filtering] Filtering 64.233.164.188
+[Traffic Filtering] Filtering 64.233.164.188
+[Traffic Filtering] Filtering www.googleapis.com:443443
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering www.googleapis.com:443443
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering optimizationguide-pa.googleapis.com:443443
+[Traffic Filtering] Filtering 173.194.221.95
+[Traffic Filtering] Filtering 173.194.220.95
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering 209.85.233.95
+[Traffic Filtering] Filtering 173.194.221.95
+[Traffic Filtering] Filtering 173.194.220.95
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering 209.85.233.95
+[Traffic Filtering] Filtering optimizationguide-pa.googleapis.com
+****** Error: found multiple wplus_http_wsock_request_ex events with the same processID, sessionid and httpid!
+****** Request Header For Transaction With Id 208 ******
+POST /v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw HTTP/1.1
+Host: optimizationguide-pa.googleapis.com
+Connection: keep-alive
+Content-Length: 472
+Content-Type: application/x-protobuf
+X-Client-Data: CKG1yQEIjbbJAQiitskBCMG2yQEIqZ3KAQjk78oBCJahywEI4pfNAQjjl80BCOmbzQEIzJzNAQjtns0BCMCfzQEI+p/NAQiFoM0BCLuhzQEIvaLNAQ==
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+$$$$$$ Request Header For Transaction With Id 208 Ended $$$$$$
+
+****** Request Body For Transaction With Id 208 ******
+
+
+\x08\x02\x10\xC6\xB2\xE1\xA0\x06 \x0B
+
+\x08	\x10\xD2\x9C\xAB\xA1\x06 \x0B
+m\x08\x10\x10\xA0\xB3\x8A\x9A\x08 \x0B2a
+Ytype.googleapis.com/google.internal.chrome.optimizationguide.v1.SegmentationModelMetadata\x12\x04J\x02\x10\x02
+
+\x08\x14\x10\xC5\x9C\xAB\xA1\x06 \x0B
+g\x08\x15 \x0B2a
+Ytype.googleapis.com/google.internal.chrome.optimizationguide.v1.SegmentationModelMetadata\x12\x04J\x02\x10\x02
+g\x08\x17 \x0B2a
+Ytype.googleapis.com/google.internal.chrome.optimizationguide.v1.SegmentationModelMetadata\x12\x04J\x02\x10\x02
+g\x08\x1B \x0B2a
+Ytype.googleapis.com/google.internal.chrome.optimizationguide.v1.SegmentationModelMetadata\x12\x04J\x02\x10\x02\x18\x06*\x02ru2\x02\x08\x06
+$$$$$$ Request Body For Transaction With Id 208 Ended $$$$$$
+
+****** Response Header For Transaction With Id 208 ******
+HTTP/1.1 200 OK
+Content-Type: application/x-protobuf
+Content-Disposition: attachment
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip
+Date: Mon, 10 Apr 2023 14:24:29 GMT
+Server: ESF
+Cache-Control: private
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 208 Ended $$$$$$
+
+****** Response Body For Transaction With Id 208 ******
+
+\x11
+\x0F\x08\x02\x10\xC6\xB2\xE1\xA0\x06"\x01\x02H\x01R\x00
+\xB1\x01
+\xAE\x01\x08	\x10\xD2\x9C\xAB\xA1\x06"\x01\x022\x95\x01
+dtype.googleapis.com/google.privacy.webpermissionpredictions.v1.WebPermissionPredictionsModelMetadata\x12-
+\x0C\x01\x02\x03\x04\x05\x06\x07\x08	
+\x0B\x0C\x10\x01\x18\x00%\xCD\xCCL>*\x14\x00\x00\x80>\x15\x00\x00\x00?\x1D\x00\x00@?%)\\O?B\x05\x08\x80\x9A\x9E\x01H\x00R\x00
+\xD4\x01
+\xD1\x01\x08\x10\x10\xA0\xB3\x8A\x9A\x08"\x01\x022\xBA\x01
+Ytype.googleapis.com/google.internal.chrome.optimizationguide.v1.SegmentationModelMetadata\x12]
+(\x08\x03\x12\x15Session.TotalDuration\x19T<\x16A\x16\xACGO \x1C(\x1C0\x03\x10\x04\x18\x01 \x1C(\x1C0\x01:'
+\x1Achrome_low_user_engagement\x12	
+\x07\x00\x00\x80?\x10\x01B\x05\x08\x80\x9A\x9E\x01R\x00
+\xB1\x01
+\xAE\x01\x08\x14\x10\xC5\x9C\xAB\xA1\x06"\x01\x022\x95\x01
+dtype.googleapis.com/google.privacy.webpermissionpredictions.v1.WebPermissionPredictionsModelMetadata\x12-
+\x0C\x01\x02\x03\x04\x05\x06\x07\x08	
+\x0B\x0C\x10\x02\x18\x00%\x9A\x99\x99>*\x14\x00\x00\x80>\x15\x00\x00\x00?\x1D
+\xD7#?%33s?B\x05\x08\x80\x9A\x9E\x01H\x00R\x00
+$$$$$$ Response Body For Transaction With Id 208 Ended $$$$$$
+
+[Traffic Filtering] Filtering www.googleapis.com:443443
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+****** Request Header For Transaction With Id 243 ******
+POST http://localhost:1080/cgi-bin/login.pl HTTP/1.1
+Host: localhost:1080
+Proxy-Connection: keep-alive
+Content-Length: 116
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+Origin: http://localhost:1080
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/nav.pl?in=home
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1681136658
+
+
+$$$$$$ Request Header For Transaction With Id 243 Ended $$$$$$
+
+****** Request Body For Transaction With Id 243 ******
+userSession=136179.559173755HAAtHDzpAHftcAciptVztf&username=jojo&password=bean&login.x=26&login.y=5&JSFormSubmit=off
+$$$$$$ Request Body For Transaction With Id 243 Ended $$$$$$
+
+****** Response Header For Transaction With Id 243 ******
+HTTP/1.1 200 OK
+Date: Mon, 10 Apr 2023 14:24:51 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A; path=/
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 243 Ended $$$$$$
+
+****** Response Body For Transaction With Id 243 ******
+<!--
+User password was correct - added a cookie with the user's default
+information.  Set the user up to make reservations...
+
+--->
+
+<html>
+<title>Web Tours</title>
+<frameset cols="160,*" border=1 frameborder=1>
+<frame src="nav.pl?page=menu&in=home" name="navbar" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+<frame src="login.pl?intro=true" name="info" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+</frameset>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 243 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/cgi-bin/welcome.pl?signOff=true
+	/cgi-bin/nav.pl?in=home
+	Form: name= action=/cgi-bin/login.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 243 ****** (Location Flag : tFlagInsertEnd, Location ID : 243)
+	web_submit_data("login.pl",
+		"Action=http://localhost:1080/cgi-bin/login.pl",
+		"Method=POST",
+		"TargetFrame=body",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?in=home",
+		"Snapshot=t2.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=userSession", "Value=136179.559173755HAAtHDzpAHftcAciptVztf", ENDITEM,
+		"Name=username", "Value=jojo", ENDITEM,
+		"Name=password", "Value=bean", ENDITEM,
+		"Name=login.x", "Value=26", ENDITEM,
+		"Name=login.y", "Value=5", ENDITEM,
+		"Name=JSFormSubmit", "Value=off", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 243 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 33)
+	web_add_auto_header("Sec-Fetch-Dest",
+		"frame");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 33)
+	web_add_auto_header("Sec-Fetch-Mode",
+		"navigate");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 33)
+	web_add_auto_header("Sec-Fetch-Site",
+		"same-origin");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 33)
+	web_add_auto_header("Upgrade-Insecure-Requests",
+		"1");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 33)
+	web_add_auto_header("sec-ch-ua",
+		"\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 33)
+	web_add_auto_header("sec-ch-ua-mobile",
+		"?0");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 33)
+	web_add_auto_header("sec-ch-ua-platform",
+		"\"Windows\"");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+[Traffic Filtering] Filtering www.googleapis.com:443443
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+****** Request Header For Transaction With Id 275 ******
+GET http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home HTTP/1.1
+Host: localhost:1080
+Proxy-Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/login.pl
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1681136658; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 275 Ended $$$$$$
+
+****** Response Header For Transaction With Id 275 ******
+HTTP/1.1 200 OK
+Date: Mon, 10 Apr 2023 14:24:51 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Sun, 09 Apr 2023 14:24:51 GMT
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 275 Ended $$$$$$
+
+****** Response Body For Transaction With Id 275 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+
+<style>
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+</style>
+
+<BR><BR><center>
+
+<br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/flights.gif" 
+ALT="Search Flights Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/itinerary.gif" 
+ALT="Itinerary Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/in_home.gif" 
+ALT="Home Button"/></A>
+<br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/signoff.gif" 
+ALT="SignOff Button"/></A></center>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 275 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+	/cgi-bin/login.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 280 ******
+GET http://localhost:1080/cgi-bin/login.pl?intro=true HTTP/1.1
+Host: localhost:1080
+Proxy-Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/login.pl
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1681136658; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 280 Ended $$$$$$
+
+****** Response Header For Transaction With Id 280 ******
+HTTP/1.1 200 OK
+Date: Mon, 10 Apr 2023 14:24:53 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 280 Ended $$$$$$
+
+****** Response Body For Transaction With Id 280 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Welcome to Web Tours</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}</style><BR/><BR/><BR/><BR/><BR/><blockquote>Welcome, <b>jojo</b>, to the Web Tours reservation pages.<BR/>Using the menu to the left, you can search for new flights to book, 
+or review/edit the flights already booked.  Don't forget to sign off when
+you're done!
+</blockquote>
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 280 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+	/cgi-bin/login.pl
+		/cgi-bin/nav.pl?page=menu&in=home
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+[Traffic Filtering] Filtering www.googleapis.com:443443
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering www.googleapis.com:443443
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering www.googleapis.com:443443
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering www.googleapis.com:443443
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering www.googleapis.com:443443
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering www.googleapis.com:443443
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering www.googleapis.com:443443
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+****** Request Header For Transaction With Id 500 ******
+GET http://localhost:1080/cgi-bin/welcome.pl?page=itinerary HTTP/1.1
+Host: localhost:1080
+Proxy-Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1681136658; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 500 Ended $$$$$$
+
+****** Response Header For Transaction With Id 500 ******
+HTTP/1.1 200 OK
+Date: Mon, 10 Apr 2023 14:25:12 GMT
+Server: Apache/2.2.21 (Win32)
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 500 Ended $$$$$$
+
+****** Response Body For Transaction With Id 500 ******
+<!-- 
+ User wants the intineraries.  Since user has already logged on,
+ we can give them the menu in the navbar.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?page=menu&in=itinerary" name="navbar" 
+            marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+      <!-- Itinerary Frame -->
+      <frame src="itinerary.pl" name="info" 
+            marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 500 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+	/cgi-bin/login.pl
+		/cgi-bin/nav.pl?page=menu&in=home
+		/cgi-bin/login.pl?intro=true
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 500 ****** (Location Flag : tFlagInsertEnd, Location ID : 500)
+	web_url("Itinerary Button",
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary",
+		"TargetFrame=body",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home",
+		"Snapshot=t3.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 500 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 243)
+	web_add_header("Origin",
+		"http://localhost:1080");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 243)
+	web_add_auto_header("Sec-Fetch-User",
+		"?1");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 502 ******
+GET http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary HTTP/1.1
+Host: localhost:1080
+Proxy-Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/welcome.pl?page=itinerary
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1681136658; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 502 Ended $$$$$$
+
+****** Response Header For Transaction With Id 502 ******
+HTTP/1.1 200 OK
+Date: Mon, 10 Apr 2023 14:25:12 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Sun, 09 Apr 2023 14:25:12 GMT
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 502 Ended $$$$$$
+
+****** Response Body For Transaction With Id 502 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+
+<style>
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+</style>
+
+<BR><BR><center>
+
+<br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/flights.gif" 
+ALT="Search Flights Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/in_itinerary.gif" 
+ALT="Itinerary Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/home.gif" 
+ALT="Home Button"/></A>
+<br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/signoff.gif" 
+ALT="SignOff Button"/></A></center>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 502 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+	/cgi-bin/welcome.pl?page=itinerary
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+[Traffic Filtering] Filtering www.googleapis.com:443443
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+****** Request Header For Transaction With Id 533 ******
+GET http://localhost:1080/cgi-bin/itinerary.pl HTTP/1.1
+Host: localhost:1080
+Proxy-Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/welcome.pl?page=itinerary
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1681136658; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 533 Ended $$$$$$
+
+****** Response Header For Transaction With Id 533 ******
+HTTP/1.1 200 OK
+Date: Mon, 10 Apr 2023 14:25:14 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Sun, 09 Apr 2023 14:25:14 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 533 Ended $$$$$$
+
+****** Response Body For Transaction With Id 533 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Flights List</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Itinerary</font></b></h1><blockquote><form method="post" action="itinerary.pl" enctype="application/x-www-form-urlencoded">
+<center>
+<TABLE BORDER="0" WIDTH="85%" CELLSPACING="0">
+<TR bgcolor="#5E7884">
+  <TD colspan="4" align="center"><font color="white"><B>Jojo Bean
+ 's Flight Transaction Summary</B></color></TD></TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="1" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="1339-82-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Business class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 78 <BR/> (CC: x-)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/11/2023
+ :  1pm : Flight 361 leaves Los Angeles  for San Francisco.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="2" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="1339-159-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Business class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 78 <BR/> (CC: x-)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/11/2023
+ :  1pm : Flight 361 leaves Los Angeles  for San Francisco.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="3" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="1339-236-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Business class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 78 <BR/> (CC: x-)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/11/2023
+ :  1pm : Flight 361 leaves Los Angeles  for San Francisco.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+<TR>
+   <TD align="center" COLSPAN="4">
+   <b>A total of 3 scheduled flights.</font></b>
+   </TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="87%" BORDER="0" CELLSPACING="0">
+<TR>
+<TD align="left" width="50%" >
+<input type="image" name="removeFlights" src="/WebTours/images/cancelreservation.gif" border="0" /></TD>
+<TD align="right" width="50%" >
+<input type="image" name="removeAllFlights" src="/WebTours/images/cancelallreservations.gif" border="0" /></TD>
+</TABLE>
+
+<div><input type="hidden" name=".cgifields" value="1"  /><input type="hidden" name=".cgifields" value="3"  /><input type="hidden" name=".cgifields" value="2"  /></div></form>
+
+</center>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 533 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+	/cgi-bin/welcome.pl?page=itinerary
+		/cgi-bin/nav.pl?page=menu&in=itinerary
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+[Traffic Filtering] Filtering update.googleapis.com:443443
+[Traffic Filtering] Filtering 216.58.209.195
+[Traffic Filtering] Filtering 216.58.209.195
+[Traffic Filtering] Filtering update.googleapis.com
+****** Request Header For Transaction With Id 543 ******
+POST http://update.googleapis.com/service/update2/json?cup2key=12:gj4L2dJF5kTpWsnzdf0wdKESyuBKR4JGL3DwB52RfVo&cup2hreq=8e01d9ee1fad49d74ab9c219028ccc3331ac9e4e696d466a88f659b4b43a5117 HTTP/1.1
+Host: update.googleapis.com
+Proxy-Connection: keep-alive
+Content-Length: 8739
+X-Goog-Update-AppId: ihnlcenocehgdaegdmhbidjhnhdchfmm,gcmjkmgdlgnkkcocmoeiminaijmmjnii,neifaoindggfcjicffkgpmnlppeffabd,lmelglejhemejginpboagddgdfbepgmp,giekcmmlnklenlaomppkphknjmnnpneh,laoigpblnllgcgjnjnllmfolckpjlhki,ehgidpndbllacpjalkiimkbadgjfnnmc,hnimpnehoodheedghdeeijklkeaacbdc,efniojlnjndmcbiieegkicadnoecjjef,jflookgnkcckhobaglndicnbbgbonegd,obedbbhbpmojnkanicioggnmelmoomoc,ggkkehgbnfjpeggfpleeakpidbkibbmn,imefjhfbkmcmebodilednhmaccmincoa,khaoiebndkojlmppeemjhbpbandiljpe,hfnkpimlhhgieaddgfemjhofmfblmnib,dhlpobdgcjafebgbbhjdnapejmpkgiie,ojhpjlocmbogdgmfpkhlaaeamibhnphh,llkgjffcdpffmhiakmfcdcblohccpfmo,oimompecagnajdejgnnjijobebaeigek,jamhcnnkihinmdlkakkaopbjbbcngflc,eeigpngbgcognadeebkilcpcaedhellh,gonpemdgkjcecdgbnaabipppbmgfggbe
+X-Goog-Update-Interactivity: bg
+X-Goog-Update-Updater: chrome-111.0.5563.148
+Content-Type: application/json
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+
+
+$$$$$$ Request Header For Transaction With Id 543 Ended $$$$$$
+
+****** Request Body For Transaction With Id 543 ******
+{"request":{"@os":"win","@updater":"chrome","acceptformat":"crx3","app":[{"appid":"ihnlcenocehgdaegdmhbidjhnhdchfmm","brand":"CHZN","cohort":"1:15j3:","cohorthint":"Win (Including up-to-date)","cohortname":"Win (Including up-to-date)","enabled":true,"lang":"ru","packages":{"package":[{"fp":"1.aeedb246d19256a956fedaa89fb62423ae5bd8855a2a1f3189161cf045645a19"}]},"ping":{"ping_freshness":"{4ffaad46-737a-498b-bbf5-e308d2111288}","rd":5943},"updatecheck":{},"version":"1.3.36.141"},{"appid":"gcmjkmgdlgnkkcocmoeiminaijmmjnii","brand":"CHZN","cohort":"1:bm1:","cohorthint":"M54AndUp","cohortname":"M54AndUp","enabled":true,"lang":"ru","packages":{"package":[{"fp":"1.e66ec4166eb005622f590068730a0b2f19e608035a4428adb50fb236f84ac358"}]},"ping":{"ping_freshness":"{697327ee-2f67-4358-a65f-ec580e6548a9}","rd":5943},"updatecheck":{},"version":"9.44.0"},{"appid":"neifaoindggfcjicffkgpmnlppeffabd","brand":"CHZN","cohort":"1:1299:","cohorthint":"Windows (102+, canary/dev/beta/stable)","cohortname":"Windows (102+, canary/dev/beta
+$$$$$$ Request Body For Transaction With Id 543 Ended $$$$$$
+
+****** Response Header For Transaction With Id 543 ******
+HTTP/1.1 200 OK
+Content-Security-Policy: script-src 'report-sample' 'nonce-JnyZ8PUPd9EDo2YZutm-Vw' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Mon, 10 Apr 2023 14:25:14 GMT
+X-Cup-Server-Proof: 304402201e6beea620412356a3d3abece2a99eb23962b754b478887b00b2610241afa33202200ef0a8c1b2a882a1a7159ae3483a7db6f00bf3228b16928222ca2e0a6ec22ca6:8e01d9ee1fad49d74ab9c219028ccc3331ac9e4e696d466a88f659b4b43a5117
+ETag: W/"304402201e6beea620412356a3d3abece2a99eb23962b754b478887b00b2610241afa33202200ef0a8c1b2a882a1a7159ae3483a7db6f00bf3228b16928222ca2e0a6ec22ca6:8e01d9ee1fad49d74ab9c219028ccc3331ac9e4e696d466a88f659b4b43a5117"
+Content-Type: application/json; charset=utf-8
+X-Daynum: 5943
+X-Daystart: 26714
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 1022
+Server: GSE
+
+
+$$$$$$ Response Header For Transaction With Id 543 Ended $$$$$$
+
+****** Response Body For Transaction With Id 543 ******
+)]}'
+{"response":{"server":"prod","protocol":"3.1","daystart":{"elapsed_seconds":26714,"elapsed_days":5943},"app":[{"cohorthint":"Win (Including up-to-date)","appid":"ihnlcenocehgdaegdmhbidjhnhdchfmm","cohort":"1:15j3:","status":"ok","cohortname":"Win (Including up-to-date)","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"M54AndUp","appid":"gcmjkmgdlgnkkcocmoeiminaijmmjnii","cohort":"1:bm1:","status":"ok","cohortname":"M54AndUp","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Windows (102+, canary/dev/beta/stable)","appid":"neifaoindggfcjicffkgpmnlppeffabd","cohort":"1:1299:","status":"ok","cohortname":"Windows (102+, canary/dev/beta/stable)","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"lmelglejhemejginpboagddgdfbepgmp","cohort":"1:lwl:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"giekcmmlnklenlaomppkphknjmnnpneh","cohort":"1:j5l:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"laoigpblnllgcgjnjnllmfolckpjlhki","cohort":"1:10zr:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"stable64","appid":"ehgidpndbllacpjalkiimkbadgjfnnmc","cohort":"1:ofl:","status":"ok","cohortname":"stable64","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"hnimpnehoodheedghdeeijklkeaacbdc","cohort":"1::","status":"ok","cohortname":"","ping":{"status":"ok"},"updatecheck":{"_esbAllowlist":"true","status":"noupdate"}},{"cohorthint":"Auto Stage3","appid":"efniojlnjndmcbiieegkicadnoecjjef","cohort":"1:18ql:","status":"ok","cohortname":"Auto Stage3","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"jflookgnkcckhobaglndicnbbgbonegd","cohort":"1:s7x:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"obedbbhbpmojnkanicioggnmelmoomoc","cohort":"1:s6f:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"108-and-above-all-users","appid":"ggkkehgbnfjpeggfpleeakpidbkibbmn","cohort":"1:ut9/1a0f:","status":"ok","cohortname":"108-and-above-all-users","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"desktop_1_flatbuffer","appid":"imefjhfbkmcmebodilednhmaccmincoa","cohort":"1:1iaf:","status":"ok","cohortname":"windows_flatbuffers","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"khaoiebndkojlmppeemjhbpbandiljpe","cohort":"1:cux:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"hfnkpimlhhgieaddgfemjhofmfblmnib","cohort":"1:jcl:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"dhlpobdgcjafebgbbhjdnapejmpkgiie","cohort":"1:z9x:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"ojhpjlocmbogdgmfpkhlaaeamibhnphh","cohort":"1:w0x:","status":"ok","cohortname":"All users","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"llkgjffcdpffmhiakmfcdcblohccpfmo","cohort":"1::","status":"ok","cohortname":"","ping":{"status":"ok"},"updatecheck":{"_esbAllowlist":"true","status":"noupdate"}},{"cohorthint":"4.10.2557.0 for Chrome 95+","appid":"oimompecagnajdejgnnjijobebaeigek","cohort":"1:1bk9:","status":"ok","cohortname":"4.10.2557.0 for Chrome 95+","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"jamhcnnkihinmdlkakkaopbjbbcngflc","cohort":"1:wvr:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"eeigpngbgcognadeebkilcpcaedhellh","cohort":"1:w59:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"General release","appid":"gonpemdgkjcecdgbnaabipppbmgfggbe","cohort":"1:z1x:","status":"ok","cohortname":"General release","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}}]}}
+$$$$$$ Response Body For Transaction With Id 543 Ended $$$$$$
+
+[Traffic Filtering] Filtering www.googleapis.com:443443
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering www.google.com:443443
+[Traffic Filtering] Filtering 216.58.209.164
+[Traffic Filtering] Filtering 216.58.209.164
+[Traffic Filtering] Filtering www.googleapis.com:443443
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering www.googleapis.com:443443
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering www.googleapis.com:443443
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering www.googleapis.com:443443
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering www.googleapis.com:443443
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+[Traffic Filtering] Filtering 216.58.210.138
+[Traffic Filtering] Filtering 64.233.161.95
+[Traffic Filtering] Filtering 216.58.209.170
+[Traffic Filtering] Filtering 142.250.150.95
+[Traffic Filtering] Filtering 64.233.165.95
+[Traffic Filtering] Filtering 64.233.164.95
+[Traffic Filtering] Filtering 142.251.1.95
+[Traffic Filtering] Filtering 64.233.162.95
+[Traffic Filtering] Filtering 74.125.205.95
+[Traffic Filtering] Filtering 216.58.210.170
+[Traffic Filtering] Filtering 108.177.14.95
+[Traffic Filtering] Filtering 216.58.209.202
+[Traffic Filtering] Filtering 173.194.222.95
+****** Request Header For Transaction With Id 742 ******
+GET http://localhost:1080/cgi-bin/welcome.pl?signOff=1 HTTP/1.1
+Host: localhost:1080
+Proxy-Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1681136658; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 742 Ended $$$$$$
+
+****** Response Header For Transaction With Id 742 ******
+HTTP/1.1 200 OK
+Date: Mon, 10 Apr 2023 14:26:02 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1681136762; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Sun, 09-Apr-2023 14:26:02 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 742 Ended $$$$$$
+
+****** Response Body For Transaction With Id 742 ******
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 742 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+	/cgi-bin/welcome.pl?page=itinerary
+		/cgi-bin/nav.pl?page=menu&in=itinerary
+		/cgi-bin/itinerary.pl
+		Form: name= action=itinerary.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 742 ****** (Location Flag : tFlagInsertEnd, Location ID : 742)
+	web_url("SignOff Button",
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1",
+		"TargetFrame=body",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary",
+		"Snapshot=t4.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 742 Ended $$$$$$
+
+****** Request Header For Transaction With Id 744 ******
+GET http://localhost:1080/cgi-bin/nav.pl?in=home HTTP/1.1
+Host: localhost:1080
+Proxy-Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1681136762
+
+
+$$$$$$ Request Header For Transaction With Id 744 Ended $$$$$$
+
+****** Response Header For Transaction With Id 744 ******
+HTTP/1.1 200 OK
+Date: Mon, 10 Apr 2023 14:26:03 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Sun, 09 Apr 2023 14:26:03 GMT
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 744 Ended $$$$$$
+
+****** Response Body For Transaction With Id 744 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="136179.567598218HAAtHDzpfAiDDDDDtcAciptVQAf"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 744 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+	/cgi-bin/welcome.pl?signOff=1
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+

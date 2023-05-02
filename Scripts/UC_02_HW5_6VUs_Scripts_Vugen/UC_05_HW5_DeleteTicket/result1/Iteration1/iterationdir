@@ -1,0 +1,6 @@
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[vuser_end]
+SnapshotIndex=I1_vuser_end
+[Action_DeleteTicket]
+SnapshotIndex=I1_Action_DeleteTicket

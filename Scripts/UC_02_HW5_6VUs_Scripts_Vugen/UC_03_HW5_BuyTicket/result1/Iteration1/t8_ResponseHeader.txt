@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 28 Apr 2023 07:12:23 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Thu, 27 Apr 2023 07:12:23 GMT
+Set-Cookie: MTUserInfo=firstName&MrKrabs&username&mrkrabs&address2&Ocean&hash&51&address1&Anchor-shaped%20house&lastName&Crab%0A; path=/
+Keep-Alive: timeout=5, max=94
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

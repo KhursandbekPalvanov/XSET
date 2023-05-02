@@ -1,0 +1,90 @@
+Virtual User Script started at: 28.04.2023 10:16:04
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (янв 05 2021 19:27:22)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\LR_Projects\Scripts\UC_02_HW5_6VUs_Scripts_Vugen\UC_06_HW5_NewRegistration\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action_NewRegistration.
+Action_NewRegistration.c(4): Notify: Transaction "UC_06_HW5_NewRegistration" started.
+Action_NewRegistration.c(6): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_NewRegistration.c(6): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_NewRegistration.c(9): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(50): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(50): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(50): web_url("welcome.pl") was successful, 4210 body bytes, 1179 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_NewRegistration.c(11): Notify: Transaction "open_webtours_site" ended with a "Pass" status (Duration: 4,2229 Wasted Time: 0,0715).
+Action_NewRegistration.c(18): Notify: Transaction "go_to_sign_up_now" started.
+Action_NewRegistration.c(20): web_remove_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action_NewRegistration.c(20): Previous automatically added web header for "Upgrade-Insecure-Requests" removed  	[MsgId: MMSG-26587]
+Action_NewRegistration.c(20): web_remove/revert_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action_NewRegistration.c(22): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action_NewRegistration.c(22): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action_NewRegistration.c(26): web_reg_find started  	[MsgId: MMSG-26355]
+Action_NewRegistration.c(26): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_NewRegistration.c(29): web_url("login.pl") started  	[MsgId: MMSG-26355]
+Action_NewRegistration.c(29): Found resource "http://localhost:1080/WebTours/profileValidate.js" in HTML "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action_NewRegistration.c(29): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action_NewRegistration.c(29): Registered web_reg_find successful for "Text=<B>First time registering? Please complete the form below.</B>" (count=1)  	[MsgId: MMSG-26364]
+Action_NewRegistration.c(29): web_url("login.pl") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_NewRegistration.c(39): Notify: Transaction "go_to_sign_up_now" ended with a "Pass" status (Duration: 0,1880 Wasted Time: 0,0045).
+Action_NewRegistration.c(46): Notify: Transaction "entering_registration_data" started.
+Action_NewRegistration.c(48): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action_NewRegistration.c(48): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action_NewRegistration.c(51): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action_NewRegistration.c(51): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+username - zcz878
+Action_NewRegistration.c(58): web_reg_find started  	[MsgId: MMSG-26355]
+Action_NewRegistration.c(58): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_NewRegistration.c(61): web_submit_data("login.pl_2") started  	[MsgId: MMSG-26355]
+Action_NewRegistration.c(61): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_NewRegistration.c(61): Registered web_reg_find successful for "Text=</style><blockquote>Thank you, <b>zcz878</b>, for registering and welcome to the Web Tours family." (count=1)  	[MsgId: MMSG-26364]
+Action_NewRegistration.c(61): web_submit_data("login.pl_2") was successful, 1079 body bytes, 383 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_NewRegistration.c(81): Notify: Transaction "entering_registration_data" ended with a "Pass" status (Duration: 0,1596 Wasted Time: 0,0053).
+Action_NewRegistration.c(88): Notify: Transaction "click_continue_after_reg" started.
+Action_NewRegistration.c(90): web_remove_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action_NewRegistration.c(90): Previous automatically added web header for "Origin" removed  	[MsgId: MMSG-26587]
+Action_NewRegistration.c(90): web_remove/revert_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action_NewRegistration.c(93): web_reg_find started  	[MsgId: MMSG-26355]
+Action_NewRegistration.c(93): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_NewRegistration.c(96): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Action_NewRegistration.c(96): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action_NewRegistration.c(96): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action_NewRegistration.c(96): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action_NewRegistration.c(96): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action_NewRegistration.c(96): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action_NewRegistration.c(96): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action_NewRegistration.c(96): Registered web_reg_find successful for "Text=User has returned to the home page.  Since user has already logged on" (count=1)  	[MsgId: MMSG-26364]
+Action_NewRegistration.c(96): web_url("button_next.gif") was successful, 5896 body bytes, 1888 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_NewRegistration.c(106): Notify: Transaction "click_continue_after_reg" ended with a "Pass" status (Duration: 2,2552 Wasted Time: 0,0043).
+Action_NewRegistration.c(109): Notify: Transaction "UC_06_HW5_NewRegistration" ended with a "Pass" status (Duration: 6,9358 Wasted Time: 0,0856).
+Ending action Action_NewRegistration.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

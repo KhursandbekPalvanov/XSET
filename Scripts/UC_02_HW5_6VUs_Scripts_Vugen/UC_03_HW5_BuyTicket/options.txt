@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\LR_Projects\Scripts\UC_02_HW5_6VUs_Scripts_Vugen\UC_03_HW5_BuyTicket
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\lr_projects\scripts\uc_02_hw5_6vus_scripts_vugen\uc_03_hw5_buyticket\\logfile.log
+d:\lr_projects\scripts\uc_02_hw5_6vus_scripts_vugen\uc_03_hw5_buyticket\\combined_UC_03_HW5_BuyTicket.c
+d:\lr_projects\scripts\uc_02_hw5_6vus_scripts_vugen\uc_03_hw5_buyticket\\pre_cci.c

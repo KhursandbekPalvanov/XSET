@@ -1,0 +1,380 @@
+[API Trapper      (3c6c:41fc)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      ( c7c:3cc4)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (1590:43b8)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (1590:4d80)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1590:4d80)] Load Network Traffic Analyzers:
+[Network Analyzer (1590:4d80)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1590:4d80)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (1590:4d80)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1590:4d80)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (1590:4d80)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (1590:4d80)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1590:4d80)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1590:15a0)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (1590:4d80)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (1590:4d80)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (1590:4d80)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Web Request      (1590:15a0)] "CONNECT clientservices.googleapis.com:443"   
+[Network Analyzer (1590:15a0)]   (Sid:  1) Client -> Server @ : 250 bytes (Service=HTTP)
+[Network Analyzer (1590:4d80)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (1590:4d80)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (1590:4d80)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (1590:4d80)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (1590:4d80)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (1590:15a0)]   (Sid:  1) Server -> Client : 107 bytes 
+[Web Request      (1590:15a0)] "CONNECT accounts.google.com:443"   
+[Network Analyzer (1590:15a0)]   (Sid:  4) Client -> Server @ : 230 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  4) Server -> Client : 107 bytes 
+[Network Analyzer (1590:2370)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1590:2370)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (1590:15a0)] "GET http://localhost:1080/cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (1590:15a0)]   (Sid:  2) Client -> Server @ : 763 bytes (Service=HTTP)
+[Web Request      (1590:15a0)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=112"   
+[Network Analyzer (1590:15a0)]   (Sid:  1) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1590:3fd0)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1590:15a0)]   (Sid:  1) Server -> Client : 206 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:3fd0)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (1590:15a0)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (1590:15a0)]   (Sid:  4) Client -> Server @ : 513 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  4) Server -> Client : 1748 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  4) Server -> Client : 147 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  4) Server -> Client : 101 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  4) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  2) Server -> Client : 1026 bytes  (Service=HTTP)
+[Web Request      (1590:15a0)] "GET http://localhost:1080/cgi-bin/nav.pl?in=home"   
+[Network Analyzer (1590:15a0)]   (Sid:  2) Client -> Server @ : 804 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  2) Server -> Client : 1744 bytes  (Service=HTTP)
+[Web Request      (1590:15a0)] "GET http://localhost:1080/favicon.ico"   
+[Network Analyzer (1590:15a0)]   (Sid:  2) Client -> Server @ : 669 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  2) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (1590:4d80)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (1590:4d80)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  5)  PROXIED!
+[API Trapper      (4c28:4cdc)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (1590:4d80)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Web Request      (1590:15a0)] "CONNECT update.googleapis.com:443"   
+[Network Analyzer (1590:15a0)]   (Sid:  5) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer (1590:4d80)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (1590:15a0)] "CONNECT www.google.com:443"   
+[Network Analyzer (1590:15a0)]   (Sid:  6) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  5) Server -> Client : 107 bytes 
+[Network Analyzer (1590:15a0)]   (Sid:  6) Server -> Client : 107 bytes 
+[Network Analyzer (1590:40cc)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1590:40cc)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1590: 2d8)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (1590: 2d8)] SSLAccept(ssl_id = 2093155032880 = 000001E759C31F30) Failed, ctx = 000001E759C2E6C0, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (1590: 2d8)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1590:15a0)]   (Sid:  5) Client -> Server @ : 729 bytes (SSL)(Service=HTTP)
+[Web Request      (1590:15a0)] "POST /service/update2/json?cup2key=13:bS_wicCBLT8DKq9PloZY3RhZBbRSlctbxSJJWvzpPc8&cup2hreq=2699f935bf9cda1930c025b601a38e483c025460da5d1f6b919888457d632a83"   
+[Network Analyzer (1590:15a0)]   (Sid:  5) Client -> Server @ : 1102 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  5) Server -> Client : 1144 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  5) Server -> Client : 276 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  5) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (1590:4d80)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (1590:4d80)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (1590:15a0)] "CONNECT optimizationguide-pa.googleapis.com:443"   
+[Network Analyzer (1590:15a0)]   (Sid:  7) Client -> Server @ : 262 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  7) Server -> Client : 107 bytes 
+[Network Analyzer (1590: c58)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1590: c58)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (1590:15a0)] "POST /v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (1590:15a0)]   (Sid:  7) Client -> Server @ : 1111 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  7) Server -> Client : 799 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  7) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  3) Server -> Client : 709 bytes 
+[Network Analyzer (1590:15a0)]   (Sid:  3) Connection Terminated (by Server)
+[Web Request      (1590:15a0)] "GET http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"   
+[Network Analyzer (1590:15a0)]   (Sid:  2) Client -> Server @ : 838 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  2) Server -> Client : 2670 bytes  (Service=HTTP)
+[Web Request      (1590:15a0)] "GET http://localhost:1080/WebTours/profileValidate.js"   
+[Network Analyzer (1590:15a0)]   (Sid:  2) Client -> Server @ : 665 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  2) Server -> Client : 11601 bytes  (Service=HTTP)
+[Network Analyzer (1590:4d80)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (1590:4d80)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (1590:15a0)] "CONNECT content-autofill.googleapis.com:443"   
+[Network Analyzer (1590:15a0)]   (Sid:  8) Client -> Server @ : 254 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  8) Server -> Client : 107 bytes 
+[Network Analyzer (1590: f9c)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (1590: f9c)] SSLAccept(ssl_id = 2093155148528 = 000001E759C4E2F0) Failed, ctx = 000001E759C2E6C0, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (1590: f9c)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1590:4d80)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (1590:4d80)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      (1590:15a0)] "CONNECT content-autofill.googleapis.com:443"   
+[Network Analyzer (1590:15a0)]   (Sid:  9) Client -> Server @ : 254 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  9) Server -> Client : 107 bytes 
+[Network Analyzer (1590:4c1c)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (1590:4c1c)] SSLAccept(ssl_id = 2093155258160 = 000001E759C68F30) Failed, ctx = 000001E759C2E6C0, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (1590:4c1c)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1590:15a0)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (1590:15a0)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (1590:4d80)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (1590:4d80)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (1590:15a0)] "CONNECT content-autofill.googleapis.com:443"   
+[Network Analyzer (1590:15a0)]   (Sid: 10) Client -> Server @ : 254 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 10) Server -> Client : 107 bytes 
+[Network Analyzer (1590:5068)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (1590:5068)] SSLAccept(ssl_id = 2093155197088 = 000001E759C5A0A0) Failed, ctx = 000001E759C2E6C0, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (1590:5068)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1590:15a0)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (1590:4d80)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (1590:4d80)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      (1590:15a0)] "CONNECT content-autofill.googleapis.com:443"   
+[Network Analyzer (1590:15a0)]   (Sid: 11) Client -> Server @ : 254 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 11) Server -> Client : 107 bytes 
+[Network Analyzer (1590:4888)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (1590:4888)] SSLAccept(ssl_id = 2093155197088 = 000001E759C5A0A0) Failed, ctx = 000001E759C2E6C0, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (1590:4888)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1590:15a0)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (1590:4d80)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (1590:4d80)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (1590:15a0)] "CONNECT update.googleapis.com:443"   
+[Network Analyzer (1590:15a0)]   (Sid: 12) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 12) Server -> Client : 107 bytes 
+[Network Analyzer (1590:48f0)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1590:48f0)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1590:15a0)]   (Sid: 12) Client -> Server @ : 1299 bytes (SSL)(Service=HTTP)
+[Web Request      (1590:15a0)] "POST /service/update2/json?cup2key=13:rhvM5cNcb7UEMNQ0WiE57IPl1SuEC0PCXkck61FaLzk&cup2hreq=3a618a57ba37512ac1d09d7bb05bb81dcbcb214954ffeb6cc45089bb108a00e9"   
+[Network Analyzer (1590:15a0)]   (Sid: 12) Client -> Server @ : 8145 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 12) Server -> Client : 1152 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 12) Server -> Client : 1165 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 12) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:4d80)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (1590:4d80)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (1590:4d80)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Web Request      (1590:15a0)] "CONNECT content-autofill.googleapis.com:443"   
+[Network Analyzer (1590:15a0)]   (Sid: 13) Client -> Server @ : 254 bytes (Service=HTTP)
+[Network Analyzer (1590:4d80)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 14)  PROXIED!
+[Web Request      (1590:15a0)] "CONNECT www.google.com:443"   
+[Network Analyzer (1590:15a0)]   (Sid: 14) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 13) Server -> Client : 107 bytes 
+[Network Analyzer (1590:15a0)]   (Sid: 14) Server -> Client : 107 bytes 
+[Network Analyzer (1590:2650)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (1590:2650)] SSLAccept(ssl_id = 2093155392912 = 000001E759C89D90) Failed, ctx = 000001E759C2E6C0, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (1590:2650)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1590:2d94)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1590:2d94)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1590:15a0)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (1590:15a0)]   (Sid: 14) Connection Terminated (by Server)
+[API Trapper      ( b18:3db4)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (1590:4d80)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (1590:4d80)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 15)  PROXIED!
+[Web Request      (1590:15a0)] "CONNECT www.google.com:443"   
+[Network Analyzer (1590:15a0)]   (Sid: 15) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 15) Server -> Client : 107 bytes 
+[Network Analyzer (1590:4428)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1590:4428)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1590:15a0)]   (Sid: 15) Connection Terminated (by Server)
+[Web Request      (1590:15a0)] "POST http://localhost:1080/cgi-bin/login.pl"   
+[Network Analyzer (1590:15a0)]   (Sid:  2) Client -> Server @ : 1142 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  2) Server -> Client : 2895 bytes  (Service=HTTP)
+[Network Analyzer (1590:4d80)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (1590:4d80)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 16)  PROXIED!
+[Web Request      (1590:15a0)] "CONNECT content-autofill.googleapis.com:443"   
+[Network Analyzer (1590:15a0)]   (Sid: 16) Client -> Server @ : 254 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 16) Server -> Client : 107 bytes 
+[Network Analyzer (1590:4338)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (1590:4338)] SSLAccept(ssl_id = 2093155329344 = 000001E759C7A540) Failed, ctx = 000001E759C2E6C0, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (1590:4338)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1590:15a0)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (1590:4d80)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (1590:4d80)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      (1590:15a0)] "CONNECT www.google.com:443"   
+[Network Analyzer (1590:15a0)]   (Sid: 17) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 17) Server -> Client : 107 bytes 
+[Network Analyzer (1590:4638)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1590:4638)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1590:4d80)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (1590:4d80)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 18)  PROXIED!
+[Web Request      (1590:15a0)] "CONNECT content-autofill.googleapis.com:443"   
+[Network Analyzer (1590:15a0)]   (Sid: 18) Client -> Server @ : 254 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 18) Server -> Client : 107 bytes 
+[Network Analyzer (1590:4f20)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (1590:4f20)] SSLAccept(ssl_id = 2093155175776 = 000001E759C54D60) Failed, ctx = 000001E759C2E6C0, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (1590:4f20)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1590:15a0)]   (Sid: 18) Connection Terminated (by Client)
+[Web Request      (1590:15a0)] "POST http://localhost:1080/cgi-bin/login.pl"   
+[Network Analyzer (1590:15a0)]   (Sid:  2) Client -> Server @ : 1100 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 17) Connection Terminated (by Server)
+[Network Analyzer (1590:15a0)]   (Sid:  2) Server -> Client : 1487 bytes  (Service=HTTP)
+[Network Analyzer (1590:4d80)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (1590:4d80)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 19)  PROXIED!
+[Web Request      (1590:15a0)] "CONNECT passwordsleakcheck-pa.googleapis.com:443"   
+[Network Analyzer (1590:15a0)]   (Sid: 19) Client -> Server @ : 264 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 107 bytes 
+[Network Analyzer (1590:1b54)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1590:1b54)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (1590:15a0)] "POST /v1/leaks:lookupSingle"   
+[Network Analyzer (1590:15a0)]   (Sid: 19) Client -> Server @ : 551 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 293 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 531 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1263 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1339 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 726 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 573 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1346 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1213 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 227 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1053 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 680 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 19) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1590:4d80)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (1590:4d80)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 20)  PROXIED!
+[Web Request      (1590:15a0)] "CONNECT content-autofill.googleapis.com:443"   
+[Network Analyzer (1590:15a0)]   (Sid: 20) Client -> Server @ : 254 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 20) Server -> Client : 107 bytes 
+[Network Analyzer (1590:4938)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (1590:4938)] SSLAccept(ssl_id = 2093155315120 = 000001E759C76DB0) Failed, ctx = 000001E759C2E6C0, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (1590:4938)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1590:15a0)]   (Sid: 20) Connection Terminated (by Client)
+[Web Request      (1590:15a0)] "GET http://localhost:1080/cgi-bin/welcome.pl?page=menus"   
+[Network Analyzer (1590:15a0)]   (Sid:  2) Client -> Server @ : 965 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  2) Server -> Client : 824 bytes  (Service=HTTP)
+[Network Analyzer (1590:4d80)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (1590:4d80)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 21)  PROXIED!
+[Web Request      (1590:15a0)] "GET http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (1590:15a0)]   (Sid:  2) Client -> Server @ : 981 bytes (Service=HTTP)
+[Web Request      (1590:15a0)] "GET http://localhost:1080/cgi-bin/login.pl?intro=true"   
+[Network Analyzer (1590:15a0)]   (Sid: 21) Client -> Server @ : 976 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  2) Server -> Client : 1749 bytes  (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 21) Server -> Client : 1159 bytes  (Service=HTTP)
+[Web Request      (1590:15a0)] "GET http://localhost:1080/cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (1590:15a0)]   (Sid: 21) Client -> Server @ : 980 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer (1590:15a0)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (1590:15a0)]   (Sid: 21) Server -> Client : 1026 bytes  (Service=HTTP)
+[Web Request      (1590:15a0)] "GET http://localhost:1080/cgi-bin/nav.pl?in=home"   
+[Network Analyzer (1590:15a0)]   (Sid: 21) Client -> Server @ : 821 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 21) Server -> Client : 1757 bytes  (Service=HTTP)
+[Network Analyzer (1590:4d80)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (1590:4d80)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (1590:15a0)]   (Sid:  5) Connection Terminated (by Server)
+[Web Request      (1590:15a0)] "CONNECT www.google.com:443"   
+[Network Analyzer (1590:15a0)]   (Sid: 22) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (1590:15a0)]   (Sid: 22) Server -> Client : 107 bytes 
+[Network Analyzer (1590:455c)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1590:455c)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\LR_Projects\Scripts\UC_02_HW5_6VUs_Scripts_Vugen\UC_01_HW5_LoginLogout
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\lr_projects\scripts\uc_02_hw5_6vus_scripts_vugen\uc_01_hw5_loginlogout\\logfile.log
+d:\lr_projects\scripts\uc_02_hw5_6vus_scripts_vugen\uc_01_hw5_loginlogout\\combined_UC_01_HW5_LoginLogout.c
+d:\lr_projects\scripts\uc_02_hw5_6vus_scripts_vugen\uc_01_hw5_loginlogout\\pre_cci.c

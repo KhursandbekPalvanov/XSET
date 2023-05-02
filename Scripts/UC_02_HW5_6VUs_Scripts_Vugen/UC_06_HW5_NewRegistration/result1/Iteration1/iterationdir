@@ -1,0 +1,6 @@
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[Action_NewRegistration]
+SnapshotIndex=I1_Action_NewRegistration
+[vuser_end]
+SnapshotIndex=I1_vuser_end

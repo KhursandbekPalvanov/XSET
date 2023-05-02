@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>UC_04_HW5_View_ItenaryList</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Action_View_ItenaryList.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="UC_04_HW5_View_ItenaryList.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="UC_04_HW5_View_ItenaryList.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="combined_UC_04_HW5_View_ItenaryList.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="136801146441.idx" Filter="1" />
+    <FileEntry Name="186076747441.idx" Filter="1" />
+    <FileEntry Name="18607674744_0nd.975.idx" Filter="1" />
+    <FileEntry Name="18607674744_4cI.869.idx" Filter="1" />
+    <FileEntry Name="18607674744_9mS.525.idx" Filter="1" />
+    <FileEntry Name="18607674744_9pU.251.idx" Filter="1" />
+    <FileEntry Name="18607674744_ag8.133.idx" Filter="1" />
+    <FileEntry Name="18607674744_ARf.145.idx" Filter="1" />
+    <FileEntry Name="18607674744_BTg.475.idx" Filter="1" />
+    <FileEntry Name="18607674744_cqx.805.idx" Filter="1" />
+    <FileEntry Name="18607674744_CtZ.319.idx" Filter="1" />
+    <FileEntry Name="18607674744_Dd5.693.idx" Filter="1" />
+    <FileEntry Name="18607674744_Ffa.239.idx" Filter="1" />
+    <FileEntry Name="18607674744_gpg.124.idx" Filter="1" />
+    <FileEntry Name="18607674744_gUF.685.idx" Filter="1" />
+    <FileEntry Name="18607674744_gVn.809.idx" Filter="1" />
+    <FileEntry Name="18607674744_JeP.299.idx" Filter="1" />
+    <FileEntry Name="18607674744_jJi.785.idx" Filter="1" />
+    <FileEntry Name="18607674744_NoI.9.idx" Filter="1" />
+    <FileEntry Name="18607674744_nOM.355.idx" Filter="1" />
+    <FileEntry Name="18607674744_OOm.425.idx" Filter="1" />
+    <FileEntry Name="18607674744_p34.199.idx" Filter="1" />
+    <FileEntry Name="18607674744_pk5.391.idx" Filter="1" />
+    <FileEntry Name="18607674744_qLJ.9.idx" Filter="1" />
+    <FileEntry Name="18607674744_qQu.879.idx" Filter="1" />
+    <FileEntry Name="18607674744_qsG.691.idx" Filter="1" />
+    <FileEntry Name="18607674744_Rg4.431.idx" Filter="1" />
+    <FileEntry Name="18607674744_UQ8.197.idx" Filter="1" />
+    <FileEntry Name="18607674744_uug.117.idx" Filter="1" />
+    <FileEntry Name="18607674744_WP5.323.idx" Filter="1" />
+    <FileEntry Name="18607674744_xU3.123.idx" Filter="1" />
+    <FileEntry Name="18607674744_XVK.517.idx" Filter="1" />
+    <FileEntry Name="219544086441.idx" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="Cities.dat" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="custom_body_variables.txt" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="lrw_custom_body.h" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvc1s.337.log" Filter="1" />
+    <FileEntry Name="mdrvJZk.653.log" Filter="1" />
+    <FileEntry Name="mdrvK8x.553.log" Filter="1" />
+    <FileEntry Name="mdrvlnt.937.log" Filter="1" />
+    <FileEntry Name="mdrvnxr.97.log" Filter="1" />
+    <FileEntry Name="mdrvq9Q.49.log" Filter="1" />
+    <FileEntry Name="mdrvUEc.5.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="seats.dat" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="UC_04_HW5_View_ItenaryList.c.pickle" Filter="1" />
+    <FileEntry Name="UC_04_HW5_View_ItenaryList.ci" Filter="1" />
+    <FileEntry Name="UC_04_HW5_View_ItenaryList.prb" Filter="1" />
+    <FileEntry Name="UC_04_HW5_View_ItenaryList.prm.bak" Filter="1" />
+    <FileEntry Name="Users.dat" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

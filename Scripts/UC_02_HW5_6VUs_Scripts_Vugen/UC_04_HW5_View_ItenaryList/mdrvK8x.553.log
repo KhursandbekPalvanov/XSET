@@ -1,0 +1,516 @@
+Virtual User Script started at: 24.04.2023 23:59:29
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (янв 05 2021 19:27:22)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\khpalv\AppData\Local\Temp\lr5tmpdirTvG.666\lrcfgzn9.667\cfgAgb.684"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action_View_ItenaryList.
+Action_View_ItenaryList.c(4): Notify: Transaction "UC_04_HW5_View_ItenaryList" started.
+Action_View_ItenaryList.c(6): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_View_ItenaryList.c(6): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_View_ItenaryList.c(9): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(50): Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused  	[MsgId: MERR-27792]
+..\\Parameters\\function.h(50): Error -35048: No match found for the requested parameter "userSession". Check whether the tag with specific attributes exists in the response data  	[MsgId: MERR-35048]
+..\\Parameters\\function.h(50): Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find  	[MsgId: MERR-26366]
+..\\Parameters\\function.h(50): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+..\\Parameters\\function.h(50): web_url("welcome.pl") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" ended with a "Fail" status (Duration: 2,0303 Wasted Time: 0,0002).
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "open_webtours_site" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "open_webtours_site" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "open_webtours_site" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" ended with a "Fail" status (Duration: 2,0304 Wasted Time: 0,0002).
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+Ending action Action_View_ItenaryList.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action_View_ItenaryList.
+Action_View_ItenaryList.c(4): Notify: Transaction "UC_04_HW5_View_ItenaryList" started.
+Action_View_ItenaryList.c(6): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_View_ItenaryList.c(6): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_View_ItenaryList.c(9): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(50): Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused  	[MsgId: MERR-27792]
+..\\Parameters\\function.h(50): Error -35048: No match found for the requested parameter "userSession". Check whether the tag with specific attributes exists in the response data  	[MsgId: MERR-35048]
+..\\Parameters\\function.h(50): Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find  	[MsgId: MERR-26366]
+..\\Parameters\\function.h(50): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+..\\Parameters\\function.h(50): web_url("welcome.pl") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" ended with a "Fail" status (Duration: 2,0484 Wasted Time: 0,0001).
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "open_webtours_site" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "open_webtours_site" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "open_webtours_site" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" ended with a "Fail" status (Duration: 2,0484 Wasted Time: 0,0001).
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+Ending action Action_View_ItenaryList.
+Ending iteration 2.
+Starting iteration 3.
+Starting action Action_View_ItenaryList.
+Action_View_ItenaryList.c(4): Notify: Transaction "UC_04_HW5_View_ItenaryList" started.
+Action_View_ItenaryList.c(6): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_View_ItenaryList.c(6): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_View_ItenaryList.c(9): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(50): Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused  	[MsgId: MERR-27792]
+..\\Parameters\\function.h(50): Error -35048: No match found for the requested parameter "userSession". Check whether the tag with specific attributes exists in the response data  	[MsgId: MERR-35048]
+..\\Parameters\\function.h(50): Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find  	[MsgId: MERR-26366]
+..\\Parameters\\function.h(50): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+..\\Parameters\\function.h(50): web_url("welcome.pl") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" ended with a "Fail" status (Duration: 2,0355 Wasted Time: 0,0002).
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "open_webtours_site" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "open_webtours_site" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "open_webtours_site" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" ended with a "Fail" status (Duration: 2,0355 Wasted Time: 0,0002).
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+Ending action Action_View_ItenaryList.
+Ending iteration 3.
+Starting iteration 4.
+Starting action Action_View_ItenaryList.
+Action_View_ItenaryList.c(4): Notify: Transaction "UC_04_HW5_View_ItenaryList" started.
+Action_View_ItenaryList.c(6): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_View_ItenaryList.c(6): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_View_ItenaryList.c(9): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(50): Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused  	[MsgId: MERR-27792]
+..\\Parameters\\function.h(50): Error -35048: No match found for the requested parameter "userSession". Check whether the tag with specific attributes exists in the response data  	[MsgId: MERR-35048]
+..\\Parameters\\function.h(50): Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find  	[MsgId: MERR-26366]
+..\\Parameters\\function.h(50): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+..\\Parameters\\function.h(50): web_url("welcome.pl") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" ended with a "Fail" status (Duration: 2,0357 Wasted Time: 0,0001).
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "open_webtours_site" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "open_webtours_site" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "open_webtours_site" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" ended with a "Fail" status (Duration: 2,0357 Wasted Time: 0,0001).
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+Ending action Action_View_ItenaryList.
+Ending iteration 4.
+Starting iteration 5.
+Starting action Action_View_ItenaryList.
+Action_View_ItenaryList.c(4): Notify: Transaction "UC_04_HW5_View_ItenaryList" started.
+Action_View_ItenaryList.c(6): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_View_ItenaryList.c(6): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_View_ItenaryList.c(9): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(50): Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused  	[MsgId: MERR-27792]
+..\\Parameters\\function.h(50): Error -35048: No match found for the requested parameter "userSession". Check whether the tag with specific attributes exists in the response data  	[MsgId: MERR-35048]
+..\\Parameters\\function.h(50): Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find  	[MsgId: MERR-26366]
+..\\Parameters\\function.h(50): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+..\\Parameters\\function.h(50): web_url("welcome.pl") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" ended with a "Fail" status (Duration: 2,0487 Wasted Time: 0,0001).
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "open_webtours_site" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "open_webtours_site" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "open_webtours_site" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" ended with a "Fail" status (Duration: 2,0488 Wasted Time: 0,0001).
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+Ending action Action_View_ItenaryList.
+Ending iteration 5.
+Starting iteration 6.
+Starting action Action_View_ItenaryList.
+Action_View_ItenaryList.c(4): Notify: Transaction "UC_04_HW5_View_ItenaryList" started.
+Action_View_ItenaryList.c(6): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_View_ItenaryList.c(6): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_View_ItenaryList.c(9): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(50): Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused  	[MsgId: MERR-27792]
+..\\Parameters\\function.h(50): Error -35048: No match found for the requested parameter "userSession". Check whether the tag with specific attributes exists in the response data  	[MsgId: MERR-35048]
+..\\Parameters\\function.h(50): Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find  	[MsgId: MERR-26366]
+..\\Parameters\\function.h(50): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+..\\Parameters\\function.h(50): web_url("welcome.pl") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" ended with a "Fail" status (Duration: 2,0456 Wasted Time: 0,0002).
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "open_webtours_site" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "open_webtours_site" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "open_webtours_site" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" ended with a "Fail" status (Duration: 2,0457 Wasted Time: 0,0002).
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+Ending action Action_View_ItenaryList.
+Ending iteration 6.
+Starting iteration 7.
+Starting action Action_View_ItenaryList.
+Action_View_ItenaryList.c(4): Notify: Transaction "UC_04_HW5_View_ItenaryList" started.
+Action_View_ItenaryList.c(6): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_View_ItenaryList.c(6): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_View_ItenaryList.c(9): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(50): Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused  	[MsgId: MERR-27792]
+..\\Parameters\\function.h(50): Error -35048: No match found for the requested parameter "userSession". Check whether the tag with specific attributes exists in the response data  	[MsgId: MERR-35048]
+..\\Parameters\\function.h(50): Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find  	[MsgId: MERR-26366]
+..\\Parameters\\function.h(50): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+..\\Parameters\\function.h(50): web_url("welcome.pl") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" ended with a "Fail" status (Duration: 2,0383 Wasted Time: 0,0002).
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "open_webtours_site" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "open_webtours_site" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "open_webtours_site" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" ended with a "Fail" status (Duration: 2,0384 Wasted Time: 0,0002).
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+Ending action Action_View_ItenaryList.
+Ending iteration 7.
+Starting iteration 8.
+Starting action Action_View_ItenaryList.
+Action_View_ItenaryList.c(4): Notify: Transaction "UC_04_HW5_View_ItenaryList" started.
+Action_View_ItenaryList.c(6): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_View_ItenaryList.c(6): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_View_ItenaryList.c(9): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(50): Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused  	[MsgId: MERR-27792]
+..\\Parameters\\function.h(50): Error -35048: No match found for the requested parameter "userSession". Check whether the tag with specific attributes exists in the response data  	[MsgId: MERR-35048]
+..\\Parameters\\function.h(50): Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find  	[MsgId: MERR-26366]
+..\\Parameters\\function.h(50): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+..\\Parameters\\function.h(50): web_url("welcome.pl") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" ended with a "Fail" status (Duration: 2,0291 Wasted Time: 0,0002).
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "open_webtours_site" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "open_webtours_site" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "open_webtours_site" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" ended with a "Fail" status (Duration: 2,0292 Wasted Time: 0,0002).
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+Ending action Action_View_ItenaryList.
+Ending iteration 8.
+Starting iteration 9.
+Starting action Action_View_ItenaryList.
+Action_View_ItenaryList.c(4): Notify: Transaction "UC_04_HW5_View_ItenaryList" started.
+Action_View_ItenaryList.c(6): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_View_ItenaryList.c(6): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_View_ItenaryList.c(9): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(50): Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused  	[MsgId: MERR-27792]
+..\\Parameters\\function.h(50): Error -35048: No match found for the requested parameter "userSession". Check whether the tag with specific attributes exists in the response data  	[MsgId: MERR-35048]
+..\\Parameters\\function.h(50): Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find  	[MsgId: MERR-26366]
+..\\Parameters\\function.h(50): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+..\\Parameters\\function.h(50): web_url("welcome.pl") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" ended with a "Fail" status (Duration: 2,0339 Wasted Time: 0,0001).
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "open_webtours_site" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "open_webtours_site" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "open_webtours_site" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" ended with a "Fail" status (Duration: 2,0340 Wasted Time: 0,0001).
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+Ending action Action_View_ItenaryList.
+Ending iteration 9.
+Starting iteration 10.
+Starting action Action_View_ItenaryList.
+Action_View_ItenaryList.c(4): Notify: Transaction "UC_04_HW5_View_ItenaryList" started.
+Action_View_ItenaryList.c(6): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_View_ItenaryList.c(6): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_View_ItenaryList.c(9): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(50): Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused  	[MsgId: MERR-27792]
+..\\Parameters\\function.h(50): Error -35048: No match found for the requested parameter "userSession". Check whether the tag with specific attributes exists in the response data  	[MsgId: MERR-35048]
+..\\Parameters\\function.h(50): Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find  	[MsgId: MERR-26366]
+..\\Parameters\\function.h(50): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+..\\Parameters\\function.h(50): web_url("welcome.pl") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" ended with a "Fail" status (Duration: 2,0273 Wasted Time: 0,0001).
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "open_webtours_site" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "open_webtours_site" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "open_webtours_site" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" ended with a "Fail" status (Duration: 2,0273 Wasted Time: 0,0001).
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+Ending action Action_View_ItenaryList.
+Ending iteration 10.
+Starting iteration 11.
+Starting action Action_View_ItenaryList.
+Action_View_ItenaryList.c(4): Notify: Transaction "UC_04_HW5_View_ItenaryList" started.
+Action_View_ItenaryList.c(6): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_View_ItenaryList.c(6): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_View_ItenaryList.c(9): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(50): Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused  	[MsgId: MERR-27792]
+..\\Parameters\\function.h(50): Error -35048: No match found for the requested parameter "userSession". Check whether the tag with specific attributes exists in the response data  	[MsgId: MERR-35048]
+..\\Parameters\\function.h(50): Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find  	[MsgId: MERR-26366]
+..\\Parameters\\function.h(50): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+..\\Parameters\\function.h(50): web_url("welcome.pl") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" ended with a "Fail" status (Duration: 2,0398 Wasted Time: 0,0001).
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "open_webtours_site" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "open_webtours_site" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "open_webtours_site" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" ended with a "Fail" status (Duration: 2,0399 Wasted Time: 0,0001).
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+Ending action Action_View_ItenaryList.
+Ending iteration 11.
+Starting iteration 12.
+Starting action Action_View_ItenaryList.
+Action_View_ItenaryList.c(4): Notify: Transaction "UC_04_HW5_View_ItenaryList" started.
+Action_View_ItenaryList.c(6): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_View_ItenaryList.c(6): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_View_ItenaryList.c(9): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(50): Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused  	[MsgId: MERR-27792]
+..\\Parameters\\function.h(50): Error -35048: No match found for the requested parameter "userSession". Check whether the tag with specific attributes exists in the response data  	[MsgId: MERR-35048]
+..\\Parameters\\function.h(50): Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find  	[MsgId: MERR-26366]
+..\\Parameters\\function.h(50): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+..\\Parameters\\function.h(50): web_url("welcome.pl") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" ended with a "Fail" status (Duration: 2,0258 Wasted Time: 0,0001).
+..\\Parameters\\function.h(50): Notify: Transaction "open_webtours_site" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "open_webtours_site" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "open_webtours_site" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "open_webtours_site" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" ended with a "Fail" status (Duration: 2,0259 Wasted Time: 0,0001).
+..\\Parameters\\function.h(50): Notify: Transaction "UC_04_HW5_View_ItenaryList" has 3 error message(s).
+..\\Parameters\\function.h(50): Notify: The 1st error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -27792: Failed to connect to server "127.0.0.1:8888": [10061] Connection refused"
+..\\Parameters\\function.h(50): Notify: The 2nd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+..\\Parameters\\function.h(50): Notify: The 3rd error message associated with transaction "UC_04_HW5_View_ItenaryList" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+Ending action Action_View_ItenaryList.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

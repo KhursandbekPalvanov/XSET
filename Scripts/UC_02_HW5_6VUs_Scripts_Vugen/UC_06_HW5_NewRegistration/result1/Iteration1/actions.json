@@ -1,0 +1,68 @@
+[
+    {
+        "actionName": "Action_NewRegistration",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t2.inf",
+                "time": 1682666169015
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: login.pl",
+                "infFile": "t3.inf",
+                "time": 1682666169239
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: login.pl_2",
+                "infFile": "t4.inf",
+                "time": 1682666169407
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: button_next.gif",
+                "infFile": "t5.inf",
+                "time": 1682666171684
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "open_webtours_site",
+                "rawStartTime": 1682666164807,
+                "rawEndTime": 1682666169030,
+                "thinkTime": 0.0,
+                "wastedTime": 0.07146239280700684
+            },
+            {
+                "transactionName": "go_to_sign_up_now",
+                "rawStartTime": 1682666169056,
+                "rawEndTime": 1682666169244,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004461526870727539
+            },
+            {
+                "transactionName": "entering_registration_data",
+                "rawStartTime": 1682666169259,
+                "rawEndTime": 1682666169418,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0053136348724365238
+            },
+            {
+                "transactionName": "click_continue_after_reg",
+                "rawStartTime": 1682666169434,
+                "rawEndTime": 1682666171690,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004313468933105469
+            },
+            {
+                "transactionName": "UC_06_HW5_NewRegistration",
+                "rawStartTime": 1682666164770,
+                "rawEndTime": 1682666171706,
+                "thinkTime": 0.0,
+                "wastedTime": 0.08555102348327637
+            }
+        ]
+    }
+]

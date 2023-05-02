@@ -1,0 +1,368 @@
+[API Trapper      (61ac:4ff4)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (2c50:62e4)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (12bc: 85c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (12bc:1980)] ------------------------------------------------------------------------------------------
+[Network Analyzer (12bc:1980)] Load Network Traffic Analyzers:
+[Network Analyzer (12bc:1980)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (12bc:1980)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (12bc:1980)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (12bc:1980)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (12bc:1980)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (12bc:1980)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (12bc:1980)] ------------------------------------------------------------------------------------------
+[Network Analyzer (12bc:1edc)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Net An. Debug    (12bc:1edc)] IP address belongs to the VirtualBox, taking the another interface with ip=192.168.0.190
+[Network Analyzer (12bc:1980)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (12bc:1980)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (12bc:1980)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Web Request      (12bc:1edc)] "CONNECT clientservices.googleapis.com:443"   
+[Network Analyzer (12bc:1edc)]   (Sid:  1) Client -> Server @ : 250 bytes (Service=HTTP)
+[Network Analyzer (12bc:1980)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (12bc:1980)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (12bc:1980)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (12bc:1980)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (12bc:1980)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (12bc:1edc)]   (Sid:  1) Server -> Client : 107 bytes 
+[Web Request      (12bc:1edc)] "CONNECT accounts.google.com:443"   
+[Network Analyzer (12bc:1edc)]   (Sid:  4) Client -> Server @ : 230 bytes (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  4) Server -> Client : 107 bytes 
+[Network Analyzer (12bc:1610)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (12bc:1610)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (12bc:5750)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Web Request      (12bc:1edc)] "GET http://localhost:1080/cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (12bc:1edc)]   (Sid:  2) Client -> Server @ : 762 bytes (Service=HTTP)
+[Web Request      (12bc:1edc)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=111"   
+[Network Analyzer (12bc:1edc)]   (Sid:  1) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Network Analyzer (12bc:5750)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (12bc:1edc)]   (Sid:  4) Client -> Server @ : 2391 bytes (SSL)(Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  1) Server -> Client : 563 bytes (SSL) (Service=HTTP)
+[Web Request      (12bc:1edc)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (12bc:1edc)]   (Sid:  4) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  4) Server -> Client : 2147 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  4) Server -> Client : 355 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  4) Server -> Client : 24 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  4) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  2) Server -> Client : 1026 bytes  (Service=HTTP)
+[Web Request      (12bc:1edc)] "GET http://localhost:1080/cgi-bin/nav.pl?in=home"   
+[Network Analyzer (12bc:1edc)]   (Sid:  2) Client -> Server @ : 803 bytes (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  2) Server -> Client : 1757 bytes  (Service=HTTP)
+[Network Analyzer (12bc:1980)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (12bc:1980)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (12bc:1edc)] "GET http://localhost:1080/favicon.ico"   
+[Network Analyzer (12bc:1edc)]   (Sid:  2) Client -> Server @ : 668 bytes (Service=HTTP)
+[Web Request      (12bc:1edc)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (12bc:1edc)]   (Sid:  5) Client -> Server @ : 228 bytes (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  2) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  5) Server -> Client : 107 bytes 
+[Network Analyzer (12bc: 478)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (12bc: 478)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (12bc:1980)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Web Request      (12bc:1edc)] "POST /oauth2/v4/token"   
+[Network Analyzer (12bc:1edc)]   (Sid:  5) Client -> Server @ : 718 bytes (SSL)(Service=HTTP)
+[Network Analyzer (12bc:1980)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (12bc:1edc)] "CONNECT update.googleapis.com:443"   
+[Network Analyzer (12bc:1edc)]   (Sid:  6) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer (12bc:1980)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (12bc:1980)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (12bc:1edc)] "CONNECT mtalk.google.com:5228"   
+[Network Analyzer (12bc:1edc)]   (Sid:  7) Client -> Server @ : 101 bytes (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  5) Server -> Client : 1069 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  5) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  6) Server -> Client : 107 bytes 
+[Network Analyzer (12bc:1edc)]   (Sid:  7) Server -> Client : 107 bytes 
+[Network Analyzer (12bc:4af4)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (12bc:3250)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (12bc:4af4)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (12bc:1980)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (12bc:1980)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (12bc:1edc)]   (Sid:  6) Client -> Server @ : 829 bytes (SSL)(Service=HTTP)
+[Web Request      (12bc:1edc)] "CONNECT clients4.google.com:443"   
+[Network Analyzer (12bc:1edc)]   (Sid:  8) Client -> Server @ : 230 bytes (Service=HTTP)
+[Web Request      (12bc:1edc)] "POST /service/update2/json?cup2key=12:TWgBfFjcJrZj_kDx8FLysqPYc3Yc3IXVu51utH7sdGA&cup2hreq=377ffbdd440a8be17cc870b45f3ea0d32559f7afbd10e206e5a1e7d2449b30c3"   
+[Network Analyzer (12bc:1edc)]   (Sid:  6) Client -> Server @ : 2061 bytes (SSL)(Service=HTTP)
+[Network Analyzer (12bc:3250)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (12bc:1edc)]   (Sid:  8) Server -> Client : 107 bytes 
+[Network Analyzer (12bc:1edc)]   (Sid:  7) Client -> Server @ : 155 bytes (SSL)
+[API Trapper      ( 500:2734)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (12bc:1edc)]   (Sid:  6) Server -> Client : 1152 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  6) Server -> Client : 387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  6) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  7) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (12bc:35e4)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (12bc:35e4)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (12bc:1edc)]   (Sid:  7) Server -> Client : 67 bytes (SSL)
+[Web Request      (12bc:1edc)] "POST /chrome-sync/command/?client=Google+Chrome&client_id=oOj0XNSPWy%2FHhboSHiTSwg%3D%3D"   
+[Network Analyzer (12bc:1edc)]   (Sid:  8) Client -> Server @ : 1368 bytes (SSL)(Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  7) Server -> Client : 12 bytes (SSL)
+[Network Analyzer (12bc:1edc)]   (Sid:  8) Server -> Client : 1024 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  8) Server -> Client : 68 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  8) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1980)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (12bc:1980)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      (12bc:1edc)] "CONNECT www.google.com:443"   
+[Network Analyzer (12bc:1edc)]   (Sid:  9) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  9) Server -> Client : 107 bytes 
+[Network Analyzer (12bc:5fdc)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (12bc:5fdc)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (12bc:1980)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (12bc:1980)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (12bc:1edc)] "CONNECT optimizationguide-pa.googleapis.com:443"   
+[Network Analyzer (12bc:1edc)]   (Sid: 10) Client -> Server @ : 262 bytes (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 10) Server -> Client : 107 bytes 
+[Network Analyzer (12bc:1d94)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (12bc:1d94)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (12bc:1edc)]   (Sid:  9) Connection Terminated (by Server)
+[Web Request      (12bc:1edc)] "POST /v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (12bc:1edc)]   (Sid: 10) Client -> Server @ : 1091 bytes (SSL)(Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 10) Server -> Client : 920 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 10) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  3) Server -> Client : 709 bytes 
+[Network Analyzer (12bc:1edc)]   (Sid:  3) Connection Terminated (by Server)
+[Web Request      (12bc:1edc)] "POST http://localhost:1080/cgi-bin/login.pl"   
+[Network Analyzer (12bc:1edc)]   (Sid:  2) Client -> Server @ : 1058 bytes (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  2) Server -> Client : 852 bytes  (Service=HTTP)
+[Web Request      (12bc:1edc)] "POST /oauth2/v4/token"   
+[Network Analyzer (12bc:1edc)]   (Sid:  5) Client -> Server @ : 737 bytes (SSL)(Service=HTTP)
+[Web Request      (12bc:1edc)] "GET http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (12bc:1edc)]   (Sid:  2) Client -> Server @ : 928 bytes (Service=HTTP)
+[Network Analyzer (12bc:1980)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (12bc:1980)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (12bc:1edc)]   (Sid:  5) Server -> Client : 1123 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  5) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (12bc:1edc)] "GET http://localhost:1080/cgi-bin/login.pl?intro=true"   
+[Network Analyzer (12bc:1edc)]   (Sid: 11) Client -> Server @ : 923 bytes (Service=HTTP)
+[Network Analyzer (12bc:1980)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (12bc:1980)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (12bc:1edc)]   (Sid:  2) Server -> Client : 1749 bytes  (Service=HTTP)
+[Web Request      (12bc:1edc)] "CONNECT passwordsleakcheck-pa.googleapis.com:443"   
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Client -> Server @ : 264 bytes (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 107 bytes 
+[Network Analyzer (12bc:46d0)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (12bc:46d0)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (12bc:1edc)] "POST /v1/leaks:lookupSingle"   
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Client -> Server @ : 831 bytes (SSL)(Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 61 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 231 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 612 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 608 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1118 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1106 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1052 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1204 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 991 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 12) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 11) Server -> Client : 1159 bytes  (Service=HTTP)
+[Web Request      (12bc:1edc)] "GET http://localhost:1080/cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (12bc:1edc)]   (Sid: 11) Client -> Server @ : 942 bytes (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 11) Server -> Client : 844 bytes  (Service=HTTP)
+[Web Request      (12bc:1edc)] "GET http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer (12bc:1edc)]   (Sid: 11) Client -> Server @ : 945 bytes (Service=HTTP)
+[Web Request      (12bc:1edc)] "GET http://localhost:1080/cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer (12bc:1edc)]   (Sid:  2) Client -> Server @ : 946 bytes (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 11) Server -> Client : 1749 bytes  (Service=HTTP)
+[Network Analyzer (12bc:1980)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (12bc:1980)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (12bc:1edc)]   (Sid:  2) Server -> Client : 4521 bytes  (Service=HTTP)
+[Web Request      (12bc:1edc)] "CONNECT update.googleapis.com:443"   
+[Network Analyzer (12bc:1edc)]   (Sid: 13) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 13) Server -> Client : 107 bytes 
+[Network Analyzer (12bc: 11c)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (12bc: 11c)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (12bc:1edc)] "POST /service/update2/json?cup2key=12:dzmUQyG-AJSlB3tKd3VbBCP79pMNgmQMZAg7fU4lHxs&cup2hreq=1700304bf043909b90914a947383e9fc4a31d7c196d736511b2008218eb8a730"
+[Network Analyzer (12bc:1edc)]   (Sid: 13) Client -> Server @ : 1333 bytes (SSL)(Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 13) Client -> Server @ : 8739 bytes (SSL)(Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 13) Server -> Client : 1152 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 13) Server -> Client : 1181 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 13) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1980)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (12bc:1980)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 14)  PROXIED!
+[Web Request      (12bc:1edc)] "CONNECT www.google.com:443"   
+[Network Analyzer (12bc:1edc)]   (Sid: 14) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 14) Server -> Client : 107 bytes 
+[Network Analyzer (12bc:559c)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (12bc:559c)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (12bc:1edc)]   (Sid: 14) Connection Terminated (by Server)
+[Web Request      (12bc:1edc)] "POST http://localhost:1080/cgi-bin/reservations.pl"   
+[Network Analyzer (12bc:1edc)]   (Sid:  2) Client -> Server @ : 1321 bytes (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  2) Server -> Client : 256 bytes  (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  2) Server -> Client : 2469 bytes  (Service=HTTP)
+[Web Request      (12bc:1edc)] "POST http://localhost:1080/cgi-bin/reservations.pl"   
+[Network Analyzer (12bc:1edc)]   (Sid:  2) Client -> Server @ : 1202 bytes (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  2) Server -> Client : 2969 bytes  (Service=HTTP)
+[API Trapper      (2db4:4930)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (12bc:1980)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (12bc:1980)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 15)  PROXIED!
+[Web Request      (12bc:1edc)] "POST http://localhost:1080/cgi-bin/reservations.pl"   
+[Network Analyzer (12bc:1edc)]   (Sid:  2) Client -> Server @ : 1341 bytes (Service=HTTP)
+[Web Request      (12bc:1edc)] "CONNECT www.google.com:443"   
+[Network Analyzer (12bc:1edc)]   (Sid: 15) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 15) Server -> Client : 107 bytes 
+[Network Analyzer (12bc:2288)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (12bc:2288)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (12bc:1edc)]   (Sid:  2) Server -> Client : 2859 bytes  (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 15) Connection Terminated (by Server)
+[Network Analyzer (12bc:1980)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (12bc:1980)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 16)  PROXIED!
+[Web Request      (12bc:1edc)] "CONNECT www.google.com:443"   
+[Network Analyzer (12bc:1edc)]   (Sid: 16) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 16) Server -> Client : 107 bytes 
+[Network Analyzer (12bc:43bc)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (12bc:43bc)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (12bc:1980)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (12bc:1980)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      (12bc:1edc)] "CONNECT safebrowsing.googleapis.com:443"   
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Client -> Server @ : 246 bytes (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Server -> Client : 107 bytes 
+[Network Analyzer (12bc:2f00)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (12bc:2f00)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (12bc:1edc)] "GET /v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTExLjAuNTU2My4xNDgaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARCbqhAaAhgHvkEqgiIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQgIwMGgIYB2HB2F8iBCABIAIoARopCAcQARobCg0IBxAGGAEiAzAwMTABEI3aDBoCGAfHKUY0IgQgASACKAEaJwgBEAEaGQoNCAEQBhgBIgMwMDEwAxAUGgIYB2L_aREiBCABIAIoAxooCAEQCBoaCg0IARAIGAEiAzAwMTAEEK4yGgIYB1IKKAIiBCABIAIoBBooCA8QARoaCg0IDxAGGAEiAzAwMTABENpzGgIYB-pOZwMiBCABIAIoARonCAoQCBoZCg0IChAIGAEiAzAwMTABEAcaAhgHBZ1-HiIEIAEgAigBGicICRABGhkKDQgJEAYYASIDMDAxMAEQIBoCGAdpkNi6IgQgASACKAEaKAgIEAEaGgoNCAgQBhgBIgMwMDEwARC0EhoCGAfsR1B-IgQgASACKAEaKQgNEAEaGwoNCA0QBhgBIgMwMDEwARCP5AEaAhgHVvlpOiIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQj4MMGgIYB4VTCUoiBCABIAIoARopCA4QARobCg0IDhAGGAEiAzAwMTABEPP6BhoCGAcwwPKoIgQgASACKAEaKAgQEAEaGgoNCBAQBhgBIgMwMDEwARCVGBoCGAfzwYV3IgQgASACKAEiAggB&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Client -> Server @ : 1221 bytes (SSL)(Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 17) Server -> Client : 939 bytes (SSL) (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 16) Connection Terminated (by Server)
+[Network Analyzer (12bc:1edc)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer (12bc:1edc)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (12bc:1edc)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer (12bc:1edc)]   (Sid:  8) Connection Terminated (by Server)
+[Network Analyzer (12bc:1980)] Address lookup for LAPTOP-RND80HOH = 192.168.56.1
+[Network Analyzer (12bc:1980)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 18)  PROXIED!
+[Web Request      (12bc:1edc)] "CONNECT www.google.com:443"   
+[Network Analyzer (12bc:1edc)]   (Sid: 18) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid: 18) Server -> Client : 107 bytes 
+[Network Analyzer (12bc:1674)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (12bc:1674)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (12bc:1edc)]   (Sid: 10) Connection Terminated (by Server)
+[Network Analyzer (12bc:1edc)]   (Sid: 18) Connection Terminated (by Server)
+[Web Request      (12bc:1edc)] "GET http://localhost:1080/cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (12bc:1edc)]   (Sid:  2) Client -> Server @ : 919 bytes (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  2) Server -> Client : 1026 bytes  (Service=HTTP)
+[Web Request      (12bc:1edc)] "GET http://localhost:1080/cgi-bin/nav.pl?in=home"   
+[Network Analyzer (12bc:1edc)]   (Sid:  2) Client -> Server @ : 820 bytes (Service=HTTP)
+[Network Analyzer (12bc:1edc)]   (Sid:  2) Server -> Client : 1757 bytes  (Service=HTTP)

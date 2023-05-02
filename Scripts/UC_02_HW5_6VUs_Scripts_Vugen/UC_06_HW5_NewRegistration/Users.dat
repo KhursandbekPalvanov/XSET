@@ -1,0 +1,11 @@
+login,password,firstName,lastName,address1,address2,creditCard,expDate
+jojo,bean,Jojo,Bean,Pushkina st,Kolotushkina home,1234-5678,04/25
+spongebob,squarepants,SpongeBob,SquarePants,Pineapple house,Ocean,2222-2222,02/22
+patrick,star,Patrick,Star,Under a rock,Ocean,3333-3333,03/33
+squidward,tentacles,Squidward,Tentacles,Moai house,Ocean,4444-4444,04/44
+mrkrabs,crab,MrKrabs,Crab,Anchor-shaped house,Ocean,5555-5555,05/55
+sheldon,plankton,Sheldon,Plankton,ChumBucket house,Ocean,6666-6666,06/66
+karen,computer,Karen,Plankton,ChumBucket house,Ocean,7777-7777,07/77
+sandy,squirrel,Sandy,Cheeks,Air-filled glass dome,Ocean,8888-8888,08/88
+mrspuff,pufferfish,MrsPuff,Teacher,Boating school,Ocean,9999-9999,09/99
+gary,snail,Gary,Cat,Pineapple house,Ocean,1010-1010,10/10

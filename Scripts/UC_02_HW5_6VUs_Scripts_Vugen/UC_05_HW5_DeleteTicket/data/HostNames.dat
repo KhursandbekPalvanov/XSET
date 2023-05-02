@@ -1,0 +1,6 @@
+[hosts]
+clientservices.googleapis.com=
+accounts.google.com=
+localhost=
+update.googleapis.com=
+optimizationguide-pa.googleapis.com=

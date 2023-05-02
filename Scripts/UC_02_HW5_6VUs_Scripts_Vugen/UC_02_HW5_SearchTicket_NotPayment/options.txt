@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\LR_Projects\Scripts\UC_02_HW5_6VUs_Scripts_Vugen\UC_02_HW5_SearchTicket_NotPayment
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\lr_projects\scripts\uc_02_hw5_6vus_scripts_vugen\uc_02_hw5_searchticket_notpayment\\logfile.log
+d:\lr_projects\scripts\uc_02_hw5_6vus_scripts_vugen\uc_02_hw5_searchticket_notpayment\\combined_UC_02_HW5_SearchTicket_NotPayment.c
+d:\lr_projects\scripts\uc_02_hw5_6vus_scripts_vugen\uc_02_hw5_searchticket_notpayment\\pre_cci.c

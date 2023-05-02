@@ -1,0 +1,159 @@
+[API Trapper      ( a90:308c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (39e0:45d0)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (4458:29a8)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (4458: 9c4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (4458: 9c4)] Load Network Traffic Analyzers:
+[Network Analyzer (4458: 9c4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (4458: 9c4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (4458: 9c4)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (4458: 9c4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (4458: 9c4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (4458: 9c4)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (4458: 9c4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (4458:32a0)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (4458: 9c4)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (4458: 9c4)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (4458: 9c4)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Web Request      (4458:32a0)] "CONNECT clientservices.googleapis.com:443"   
+[Network Analyzer (4458:32a0)]   (Sid:  1) Client -> Server @ : 250 bytes (Service=HTTP)
+[Network Analyzer (4458: 9c4)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (4458: 9c4)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (4458: 9c4)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (4458: 9c4)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (4458: 9c4)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (4458:32a0)]   (Sid:  1) Server -> Client : 107 bytes 
+[Web Request      (4458:32a0)] "CONNECT accounts.google.com:443"   
+[Network Analyzer (4458:32a0)]   (Sid:  4) Client -> Server @ : 230 bytes (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  4) Server -> Client : 107 bytes 
+[Network Analyzer (4458:44dc)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Web Request      (4458:32a0)] "GET http://localhost:1080/cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (4458:32a0)]   (Sid:  2) Client -> Server @ : 763 bytes (Service=HTTP)
+[Network Analyzer (4458:44dc)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (4458: af8)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (4458: af8)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (4458:32a0)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=112"   
+[Network Analyzer (4458:32a0)]   (Sid:  1) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Web Request      (4458:32a0)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (4458:32a0)]   (Sid:  4) Client -> Server @ : 513 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  1) Server -> Client : 206 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  4) Server -> Client : 1544 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  4) Server -> Client : 119 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  4) Server -> Client : 115 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  4) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  2) Server -> Client : 1026 bytes  (Service=HTTP)
+[Web Request      (4458:32a0)] "GET http://localhost:1080/cgi-bin/nav.pl?in=home"   
+[Network Analyzer (4458:32a0)]   (Sid:  2) Client -> Server @ : 804 bytes (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  2) Server -> Client : 255 bytes  (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  2) Server -> Client : 1501 bytes  (Service=HTTP)
+[Web Request      (4458:32a0)] "GET http://localhost:1080/favicon.ico"   
+[Network Analyzer (4458:32a0)]   (Sid:  2) Client -> Server @ : 669 bytes (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  2) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (4458: 9c4)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (4458: 9c4)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  5)  PROXIED!
+[API Trapper      (43d4:3924)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (4138:39d4)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (4458: 9c4)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Web Request      (4458:32a0)] "CONNECT update.googleapis.com:443"   
+[Network Analyzer (4458:32a0)]   (Sid:  5) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer (4458: 9c4)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (4458:32a0)] "CONNECT www.google.com:443"   
+[Network Analyzer (4458:32a0)]   (Sid:  6) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  5) Server -> Client : 107 bytes 
+[Network Analyzer (4458:32a0)]   (Sid:  6) Server -> Client : 107 bytes 
+[Network Analyzer (4458:2978)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (4458:2978)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (4458:3d1c)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (4458:3d1c)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (4458:32a0)]   (Sid:  5) Client -> Server @ : 729 bytes (SSL)(Service=HTTP)
+[Web Request      (4458:32a0)] "POST /service/update2/json?cup2key=13:RVaK75rfzrRnfHh83rjvYC_Jev4MBS-kI1u68-kvlZA&cup2hreq=55e477f830a996e69ff43816baf58ce7980ac31d787aefcf35ea1fd0097f0a8f"   
+[Network Analyzer (4458:32a0)]   (Sid:  5) Client -> Server @ : 1102 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  5) Server -> Client : 1149 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  5) Server -> Client : 439 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  5) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (4458:32a0)] "POST http://localhost:1080/cgi-bin/login.pl"   
+[Network Analyzer (4458:32a0)]   (Sid:  2) Client -> Server @ : 1059 bytes (Service=HTTP)
+[Network Analyzer (4458: 9c4)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (4458: 9c4)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (4458:32a0)]   (Sid:  6) Connection Terminated (by Server)
+[Web Request      (4458:32a0)] "CONNECT optimizationguide-pa.googleapis.com:443"   
+[Network Analyzer (4458:32a0)]   (Sid:  7) Client -> Server @ : 262 bytes (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  7) Server -> Client : 107 bytes 
+[Network Analyzer (4458:2ddc)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (4458:2ddc)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (4458:32a0)]   (Sid:  2) Server -> Client : 852 bytes  (Service=HTTP)
+[Web Request      (4458:32a0)] "POST /v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (4458:32a0)]   (Sid:  7) Client -> Server @ : 1111 bytes (SSL)(Service=HTTP)
+[Web Request      (4458:32a0)] "GET http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (4458:32a0)]   (Sid:  2) Client -> Server @ : 929 bytes (Service=HTTP)
+[Web Request      (4458:32a0)] "GET http://localhost:1080/cgi-bin/login.pl?intro=true"   
+[Network Analyzer (4458:32a0)]   (Sid:  3) Client -> Server @ : 924 bytes (Service=HTTP)
+[Network Analyzer (4458: 9c4)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (4458: 9c4)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (4458:32a0)] "CONNECT passwordsleakcheck-pa.googleapis.com:443"   
+[Network Analyzer (4458:32a0)]   (Sid:  8) Client -> Server @ : 264 bytes (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  7) Server -> Client : 905 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  7) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  2) Server -> Client : 1749 bytes  (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  8) Server -> Client : 107 bytes 
+[Network Analyzer (4458: a70)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (4458: a70)] SSLAccept(ssl_id = 1999211946896 = 000001D17A516390) Failed, ctx = 000001D17A510F90, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (4458: a70)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (4458:32a0)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (4458:32a0)]   (Sid:  3) Server -> Client : 1159 bytes  (Service=HTTP)
+[Web Request      (4458:32a0)] "GET http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"   
+[Network Analyzer (4458:32a0)]   (Sid:  3) Client -> Server @ : 946 bytes (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  3) Server -> Client : 819 bytes  (Service=HTTP)
+[Web Request      (4458:32a0)] "GET http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer (4458:32a0)]   (Sid:  3) Client -> Server @ : 951 bytes (Service=HTTP)
+[Web Request      (4458:32a0)] "GET http://localhost:1080/cgi-bin/itinerary.pl"   
+[Network Analyzer (4458:32a0)]   (Sid:  2) Client -> Server @ : 934 bytes (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  3) Server -> Client : 1749 bytes  (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  2) Server -> Client : 7369 bytes  (Service=HTTP)
+[Network Analyzer (4458: 9c4)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (4458: 9c4)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      (4458:32a0)] "CONNECT update.googleapis.com:443"   
+[Network Analyzer (4458:32a0)]   (Sid:  9) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  9) Server -> Client : 107 bytes 
+[Network Analyzer (4458:1c68)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (4458:1c68)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (4458:32a0)]   (Sid:  9) Client -> Server @ : 1299 bytes (SSL)(Service=HTTP)
+[Web Request      (4458:32a0)] "POST /service/update2/json?cup2key=13:Jy3YiCHOE-3PI4Acvq9axFtLTzFL3yaocOL4UUIXv4s&cup2hreq=09df9f7db9fa057f7747cce7c29547ca47efc2def4f5f5b03b0ba21b4bf50ca5"   
+[Network Analyzer (4458:32a0)]   (Sid:  9) Client -> Server @ : 8145 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  9) Server -> Client : 1149 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  9) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  9) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4458: 9c4)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (4458: 9c4)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (4458:32a0)] "CONNECT www.google.com:443"   
+[Network Analyzer (4458:32a0)]   (Sid: 10) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid: 10) Server -> Client : 107 bytes 
+[Network Analyzer (4458:4474)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (4458:4474)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (4458:32a0)]   (Sid: 10) Connection Terminated (by Server)
+[Network Analyzer (4458:32a0)]   (Sid:  9) Client -> Server @ : 377 bytes (SSL)(Service=HTTP)
+[Web Request      (4458:32a0)] "POST /service/update2/json"   
+[Network Analyzer (4458:32a0)]   (Sid:  9) Client -> Server @ : 1426 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  9) Server -> Client : 701 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  9) Server -> Client : 304 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  9) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (4458:32a0)] "POST http://localhost:1080/cgi-bin/itinerary.pl"   
+[Network Analyzer (4458:32a0)]   (Sid:  2) Client -> Server @ : 1273 bytes (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  2) Server -> Client : 5096 bytes  (Service=HTTP)
+[API Trapper      (3828:292c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (4458: 9c4)] Address lookup for HVY-WXX9 = 172.29.192.1
+[Network Analyzer (4458: 9c4)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      (4458:32a0)] "CONNECT www.google.com:443"   
+[Network Analyzer (4458:32a0)]   (Sid: 11) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid: 11) Server -> Client : 107 bytes 
+[Network Analyzer (4458:1ff8)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (4458:1ff8)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (4458:32a0)] "GET http://localhost:1080/cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (4458:32a0)]   (Sid:  2) Client -> Server @ : 946 bytes (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  2) Server -> Client : 1026 bytes  (Service=HTTP)
+[Web Request      (4458:32a0)] "GET http://localhost:1080/cgi-bin/nav.pl?in=home"   
+[Network Analyzer (4458:32a0)]   (Sid:  2) Client -> Server @ : 821 bytes (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  2) Server -> Client : 255 bytes  (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid:  2) Server -> Client : 1502 bytes  (Service=HTTP)
+[Network Analyzer (4458:32a0)]   (Sid: 11) Connection Terminated (by Server)

@@ -1,0 +1,85 @@
+Virtual User Script started at: 28.04.2023 10:13:31
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (янв 05 2021 19:27:22)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\LR_Projects\Scripts\UC_02_HW5_6VUs_Scripts_Vugen\UC_04_HW5_View_ItenaryList\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action_View_ItenaryList.
+Action_View_ItenaryList.c(4): Notify: Transaction "UC_04_HW5_View_ItenaryList" started.
+Action_View_ItenaryList.c(6): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action_View_ItenaryList.c(6): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action_View_ItenaryList.c(9): Notify: Transaction "open_webtours_site" started.
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(10): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(13): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(16): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(19): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(22): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(25): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(28): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(46): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(50): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(50): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(50): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(50): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(50): web_url("welcome.pl") was successful, 4212 body bytes, 1179 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_View_ItenaryList.c(11): Notify: Transaction "open_webtours_site" ended with a "Pass" status (Duration: 4.2490 Wasted Time: 0.0735).
+Action_View_ItenaryList.c(18): Notify: Transaction "login" started.
+..\\Parameters\\function.h(65): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(65): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(68): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\Parameters\\function.h(73): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(76): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(76): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(80): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): Registered web_reg_find successful for "Text=Welcome, <b>squidward</b>, to the Web Tours reservation pages" (count=1)  	[MsgId: MMSG-26364]
+..\\Parameters\\function.h(80): web_submit_data("login.pl") was successful, 5784 body bytes, 2063 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_View_ItenaryList.c(20): Notify: Transaction "login" ended with a "Pass" status (Duration: 2,2264 Wasted Time: 0,0048).
+Action_View_ItenaryList.c(27): Notify: Transaction "go_to_itenary" started.
+Action_View_ItenaryList.c(31): web_reg_find started  	[MsgId: MMSG-26355]
+Action_View_ItenaryList.c(31): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_View_ItenaryList.c(36): web_reg_find started  	[MsgId: MMSG-26355]
+Action_View_ItenaryList.c(36): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action_View_ItenaryList.c(40): web_url("Itinerary Button") started  	[MsgId: MMSG-26355]
+Action_View_ItenaryList.c(40): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Action_View_ItenaryList.c(40): Detected non-resource "http://localhost:1080/cgi-bin/itinerary.pl" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Action_View_ItenaryList.c(40): Found resource "http://localhost:1080/WebTours/images/cancelreservation.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action_View_ItenaryList.c(40): Found resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action_View_ItenaryList.c(40): Resource "http://localhost:1080/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_View_ItenaryList.c(40): Found resource "http://localhost:1080/WebTours/images/in_itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Action_View_ItenaryList.c(40): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Action_View_ItenaryList.c(40): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action_View_ItenaryList.c(40): Registered web_reg_find successful for "Text=User wants the intineraries" (count=1)  	[MsgId: MMSG-26364]
+Action_View_ItenaryList.c(40): Registered web_reg_find successful for "Text=Squidward Tentacles" (count=244)  	[MsgId: MMSG-26364]
+Action_View_ItenaryList.c(40): web_url("Itinerary Button") was successful, 142027 body bytes, 1913 header bytes, 284 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action_View_ItenaryList.c(50): Notify: Transaction "go_to_itenary" ended with a "Pass" status (Duration: 0,2444 Wasted Time: 0,0180).
+Action_View_ItenaryList.c(62): Notify: Transaction "UC_04_HW5_View_ItenaryList" ended with a "Pass" status (Duration: 6,8070 Wasted Time: 0,0962).
+Ending action Action_View_ItenaryList.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
