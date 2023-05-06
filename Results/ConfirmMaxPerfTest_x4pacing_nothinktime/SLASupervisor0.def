@@ -1,0 +1,59 @@
+﻿[SLASupervisor_BasicInfo]
+NumFilters=2
+
+[AdditionalFilter0]
+DimensionType=Discrete
+InternalDimName=Event Name
+Dimension=Transaction Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=26
+UseEscapeSequence=1
+DimCount=26
+Dim_0=Action_BuyTicket_Transaction
+Dim_1=Action_DeleteTicket_Transaction
+Dim_2=Action_LoginLogout_Transaction
+Dim_3=Action_NewRegistration_Transaction
+Dim_4=Action_SearchTicket_NotPayment_Transaction
+Dim_5=Action_View_ItenaryList_Transaction
+Dim_6=choice_time_and_cost
+Dim_7=choise_cities_passengers_seats
+Dim_8=click_continue_after_reg
+Dim_9=delete_ticket
+Dim_10=entering_registration_data
+Dim_11=go_to_flights
+Dim_12=go_to_itenary
+Dim_13=go_to_sign_up_now
+Dim_14=input_user_info
+Dim_15=login
+Dim_16=logout
+Dim_17=open_webtours_site
+Dim_18=UC_01_HW5_LoginLogout
+Dim_19=UC_02_HW5_SearchTicket_NotPayment
+Dim_20=UC_03_HW5_BuyTicket
+Dim_21=UC_04_HW5_View_ItenaryList
+Dim_22=UC_05_HW5_DeleteTicket
+Dim_23=UC_06_HW5_NewRegistration
+Dim_24=vuser_end_Transaction
+Dim_25=vuser_init_Transaction
+LikeMode=0
+
+[AdditionalFilter1]
+DimensionType=Continuous
+InternalDimName=End Time
+Dimension=Scenario Elapsed Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimCount=2
+Dim_0=540.000000
+Dim_1=4140.000000
+
+[DimensionFunctions]
+DimeFuncCount=1
+DimeFuncType0=FuncFragment
+FunctionName_UI0=Think Time
+DimensionName_UI0=Transaction Response Time,Aminimum,Amaximum
+FunctionFragmentValues_UI0=-Include Think Time
+DimensionFragmentValues_UI0=!([Value]-[Think Time])!,!([Aminimum]-[Think Time])!,!([Amaximum]-[Think Time])!
+
